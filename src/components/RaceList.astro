@@ -1,0 +1,16 @@
+---
+import { raceLabel, raceUrl, type Race } from '../lib';
+interface Props { races: Race[] }
+const { races } = Astro.props;
+---
+{races.length === 0
+  ? <p class="meta">No races yet.</p>
+  : <ul class="race-list">
+      {races.map((r) => (
+        <li>
+          <a href={raceUrl(r)}><span class="label">{raceLabel(r)}</span>{r.data.title}</a>
+          {r.data.openSeat && <span class="tag">open seat</span>}
+          <div class="meta">{r.data.summary}</div>
+        </li>
+      ))}
+    </ul>}

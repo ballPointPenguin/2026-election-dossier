@@ -1,0 +1,28 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { OFFICES, fmtDate, getRaces, raceLabel, slugOf, url } from '../../lib';
+
+export async function getStaticPaths() {
+  const races = await getRaces();
+  return races.map((race) => ({
+    params: { office: race.data.office, slug: slugOf(race) },
+    props: { race },
+  }));
+}
+const { race } = Astro.props;
+const { Content, headings } = await render(race);
+const sections = headings.filter((h) => h.depth === 2);
+const { data } = race;
+---
+<Base title={`${raceLabel(race)}: ${data.title}`} description={data.summary}>
+  <p class="meta"><a href={url(`${data.office}/`)}>← {OFFICES[data.office]}</a></p>
+  <h1>{raceLabel(race)}: {data.title}</h1>
+  <p class="meta">Briefing of {fmtDate(data.briefingDate)} · Election Day {fmtDate(data.electionDate)}</p>
+  {sections.length > 1 && (
+    <nav class="toc" aria-label="On this page">
+      <ol>{sections.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+    </nav>
+  )}
+  <article><Content /></article>
+</Base>
