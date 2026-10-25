@@ -1,0 +1,27 @@
+---
+import { OFFICES, url } from '../lib';
+import '../styles/global.css';
+interface Props { title: string; description?: string }
+const { title, description = 'Briefings on selected 2026 U.S. midterm races.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site">
+      <a class="brand" href={url()}>2026 Election Dossier</a>
+      <nav>
+        {Object.entries(OFFICES).map(([key, label]) => <a href={url(`${key}/`)}>{label}</a>)}
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer class="site">
+      Briefings are LLM-assisted summaries compiled from public reporting; verify against primary sources before relying on them.
+    </footer>
+  </body>
+</html>

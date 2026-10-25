@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import RaceList from '../../components/RaceList.astro';
+import { OFFICES, getRaces, type Office } from '../../lib';
+
+export function getStaticPaths() {
+  return (Object.keys(OFFICES) as Office[]).map((office) => ({ params: { office } }));
+}
+const office = Astro.params.office as Office;
+const races = await getRaces(office);
+---
+<Base title={`${OFFICES[office]} · 2026 Election Dossier`}>
+  <h1>{OFFICES[office]}</h1>
+  <RaceList races={races} />
+</Base>

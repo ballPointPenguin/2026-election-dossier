@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import RaceList from '../components/RaceList.astro';
+import { OFFICES, getRaces, url, type Office } from '../lib';
+
+const sections = await Promise.all(
+  (Object.keys(OFFICES) as Office[]).map(async (o) => ({ office: o, races: await getRaces(o) })),
+);
+---
+<Base title="2026 Election Dossier">
+  <h1>2026 Election Dossier</h1>
+  <p>Briefings on selected, closely watched races in the November 3, 2026 U.S. midterms. Not exhaustive.</p>
+  {sections.map(({ office, races }) => (
+    <section>
+      <h2><a href={url(`${office}/`)}>{OFFICES[office]}</a></h2>
+      <RaceList races={races} />
+    </section>
+  ))}
+</Base>
