@@ -23,3 +23,9 @@ th, td { border: 1px solid var(--rule); padding: .35rem .7rem; text-align: left;
 .race-list .label { font: 700 .95rem system-ui, sans-serif; margin-right: .5rem; }
 .tag { font: .75rem system-ui, sans-serif; border: 1px solid var(--rule); border-radius: 3px; padding: 0 .35rem; margin-left: .4rem; color: var(--muted); }
 .toc ol { padding-left: 1.2rem; font-family: system-ui, sans-serif; font-size: .95rem; }
+.ratings { border: 1px solid var(--rule); border-radius: 4px; padding: .6rem 1rem; margin: 1rem 0; font-family: system-ui, sans-serif; }
+.ratings h2 { font-size: 1rem; margin: 0 0 .4rem; }
+.ratings .asof { font-weight: 400; color: var(--muted); font-size: .85rem; margin-left: .4rem; }
+.ratings dl { display: grid; grid-template-columns: max-content 1fr; gap: .15rem 1rem; margin: 0; font-size: .95rem; }
+.ratings dt { color: var(--muted); }
+.ratings dd { margin: 0; }
