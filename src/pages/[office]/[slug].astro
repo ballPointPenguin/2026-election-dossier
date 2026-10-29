@@ -19,6 +19,16 @@ const { data } = race;
   <p class="meta"><a href={url(`${data.office}/`)}>← {OFFICES[data.office]}</a></p>
   <h1>{raceLabel(race)}: {data.title}</h1>
   <p class="meta">Briefing of {fmtDate(data.briefingDate)} · Election Day {fmtDate(data.electionDate)}</p>
+  {Object.keys(data.ratings).length > 0 && (
+    <section class="ratings" aria-label="Forecaster ratings">
+      <h2>Forecaster ratings <span class="asof">as of {fmtDate(data.briefingDate)}</span></h2>
+      <dl>
+        {Object.entries(data.ratings).map(([who, rating]) => (
+          <><dt>{who}</dt><dd>{rating}</dd></>
+        ))}
+      </dl>
+    </section>
+  )}
   {sections.length > 1 && (
     <nav class="toc" aria-label="On this page">
       <ol>{sections.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>

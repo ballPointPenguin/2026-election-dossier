@@ -4,7 +4,18 @@ Static site of briefings on selected 2026 U.S. midterm races (House first; Senat
 
 ## Adding a race
 
-Create `src/content/races/<office>/<slug>.md` (`office` is `house`, `senate` or `governor`; e.g. `house/ca-13.md`). Frontmatter is validated by `src/content.config.ts`; the Markdown body is the briefing. Use `##` for top-level sections (they populate the page's table of contents). Copy `house/ny-21.md` as a template. Set `draft: true` to hide a race.
+Create `src/content/races/<office>/<slug>.md` (zero-padded districts, e.g. `house/ky-06.md`; `office` is `house`, `senate` or `governor`; e.g. `house/ca-13.md`). Frontmatter is validated by `src/content.config.ts`; the Markdown body is the briefing. Use `##` for top-level sections (they populate the page's table of contents). Copy `house/ny-21.md` as a template. Set `draft: true` to hide a race.
+
+## Editorial conventions
+
+This is a "vibe check" site for a few readers, not reporting. Gaps, fuzziness and unsourced LLM characterizations are fine; just avoid slop. Source briefings are pasted LLM analysis. When converting one:
+
+- Tighten the prose and cut speculation; keep facts, figures and dates.
+- Poll numbers date fast, so keep them in a dated "Polling and ratings" section near the end, not in the lede or `summary`. Name the sponsor of each poll, and flag partisan sponsorship.
+- Use `##` headings without numbers; use `###` for individual candidates.
+- Turn flattened stat blocks into Markdown tables.
+- Drop chat artifacts (`?utm_source=chatgpt.com`, hotlinked images, "monitor…" calls to action, "N days until Election Day" countdowns).
+- Leave an HTML `<!-- TODO -->` comment where the source is ambiguous.
 
 ## Develop
 
