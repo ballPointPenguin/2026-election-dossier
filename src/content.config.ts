@@ -21,6 +21,8 @@ const races = defineCollection({
     candidates: z
       .array(z.object({ name: z.string(), party: z.string() }))
       .default([]),
+    // Slugs of related races (e.g. 'pa-08'); must be mutual, checked at build time.
+    related: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),
 });
