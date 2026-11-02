@@ -114,8 +114,8 @@ export const POLL_CLOSE_ET: Record<string, number> = {
   AL: t(20), CT: t(20), DE: t(20), IL: t(20), KS: t(20), ME: t(20), MD: t(20), MA: t(20), MI: t(20),
   MS: t(20), MO: t(20), NH: t(20), NJ: t(20), OK: t(20), PA: t(20), RI: t(20), TN: t(20), TX: t(20),
   AR: t(20, 30),
-  AZ: t(21), CO: t(21), LA: t(21), MN: t(21), NE: t(21), NM: t(21), NY: t(21), SD: t(21), WI: t(21), WY: t(21),
-  ID: t(22), IA: t(22), MT: t(22), NV: t(22), UT: t(22),
+  AZ: t(21), CO: t(21), IA: t(21), LA: t(21), MN: t(21), NE: t(21), NM: t(21), NY: t(21), SD: t(21), WI: t(21), WY: t(21),
+  ID: t(22), MT: t(22), NV: t(22), UT: t(22),
   CA: t(23), OR: t(23), WA: t(23),
   AK: t(24), HI: t(24),
 };
