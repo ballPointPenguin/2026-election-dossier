@@ -30,3 +30,7 @@ Requires Node >= 22.22.
 ## Deploy
 
 Pushes to `main` build and deploy via `.github/workflows/deploy.yml`. One-time setup: repo **Settings → Pages → Build and deployment → Source: GitHub Actions**. The `base` path in `astro.config.mjs` assumes `https://ballpointpenguin.github.io/2026-election-dossier/`; change `site`/`base` for a custom domain.
+
+## Silver Bulletin data
+
+A race may carry an optional `silverBulletin` block in its frontmatter (win probability, polling average, polls with influence weights); see `src/content/races/house/ak-al.md` for the shape. It renders as a box on the race page and as a "Silver Bulletin" column on the index (leader's win probability). Numbers are transcribed by hand from silver bulletin's House forecast pages and the model updates often, so set `updated` to the date shown on the source.

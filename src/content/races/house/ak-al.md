@@ -15,6 +15,23 @@ candidates:
   - { name: Bill Hill, party: I }
   - { name: Eric Hafner, party: D }
   - { name: Jim McDermott, party: L }
+silverBulletin:
+  updated: 2026-11-01
+  model: Deluxe
+  winProb:
+    - { name: Begich, party: R, pct: 79.8 }
+    - { name: Hill, party: I, pct: 20.2 }
+  average:
+    margin: R+8.5
+    candidates:
+      - { name: Begich, party: R, pct: 48.1 }
+      - { name: Hill, party: I, pct: 39.5 }
+      - { name: Hafner, party: D, pct: 6.3 }
+  polls:
+    - { dates: "Oct 23–30", pollster: "The New York Times/Siena College", sample: "593 LV", results: { Begich: 46, Hill: 39, Hafner: 6 }, margin: R+7, influence: 2.32 }
+    - { dates: "Oct 8–16", pollster: "Data for Progress", sample: "681 LV", results: { Begich: 49, Hill: 43, Hafner: 5 }, margin: R+7, influence: 0.70 }
+    - { dates: "Oct 1–3", pollster: "Alaska Survey Research", sample: "1,512 LV", results: { Begich: 50, Hill: 40, Hafner: 7 }, margin: R+10, influence: 0.65 }
+    - { dates: "Sep 8–11", pollster: "Fabrizio Lee & Associates/Impact Research", sample: "800 LV", results: { Begich: 48, Hill: 33, Hafner: 10 }, margin: R+15, influence: 0.15 }
 ---
 
 <!-- TODO: the source text for this briefing was cut off mid-sentence in its closing "Assessment" section; the page ends with a "What to watch" summary written from the rest of the briefing. -->
@@ -123,14 +140,15 @@ Through October 14, 2026. Begich has a large edge in direct fundraising, but Hil
 | Sabato's Crystal Ball | Lean Republican (Oct. 28) |
 | Inside Elections | Likely Republican |
 
-| Pollster | Dates | Begich | Hill | Hafner | McDermott |
-| --- | --- | --- | --- | --- | --- |
-| Public Policy Polling (Democratic-aligned; registered voters) | Oct. 14–15 | 45% | 44% | 5% | 2% |
-| Data for Progress (progressive-aligned; 694 LV, ±4) | Oct. 8–16 | 48% | 42% | 5% | 1% |
-| NYT / Siena | Sept. 24–Oct. 1 | 47% | 35% | 8% | 5% |
-| AARP / Fabrizio–Impact | Sept. 8–11 | 45% | 31% | 9% | 3% |
+| Pollster (sponsor) | Dates | Begich | Hill | Hafner |
+| --- | --- | --- | --- | --- |
+| The New York Times/Siena College (593 LV) | Oct. 23–30 | 46% | 39% | 6% |
+| Public Policy Polling (Democratic-aligned; registered voters; not in Silver Bulletin's average) | Oct. 14–15 | 45% | 44% | 5% |
+| Data for Progress (progressive-aligned; 681 LV) | Oct. 8–16 | 49% | 43% | 5% |
+| Alaska Survey Research (1,512 LV) | Oct. 1–3 | 50% | 40% | 7% |
+| Fabrizio Lee & Associates/Impact Research (800 LV) | Sept. 8–11 | 48% | 33% | 10% |
 
-Data for Progress had 4% undecided and a modeled final ranked-choice round of Begich 51%, Hill 49%, much closer than its six-point first-choice margin. Alaska Survey Research estimated a final round around Begich 53%, Hill 47%. The PPP poll is registered voters, so it isn't directly comparable. Begich keeps an advantage but Hill has a plausible route through turnout and preference transfers.
+Poll figures follow Silver Bulletin's listing (see the forecast box above), which differs in places from earlier summaries of the same polls (for example, the Siena dates and the Data for Progress and AARP/Fabrizio numbers). An earlier summary of Data for Progress's release gave a modeled final ranked-choice round of Begich 51%, Hill 49%, much closer than its first-choice margin. Alaska Survey Research estimated a final round around Begich 53%, Hill 47%. The PPP poll is registered voters, so it isn't directly comparable. Begich keeps an advantage but Hill has a plausible route through turnout and preference transfers.
 
 ## What to watch on election night
 
