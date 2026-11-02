@@ -38,6 +38,10 @@ const races = defineCollection({
     title: z.string(),
     summary: z.string(), // one or two sentences for index listings
     briefingDate: z.coerce.date(),
+    // When the forecaster ratings were last refreshed; falls back to briefingDate.
+    ratingsAsOf: z.coerce.date().optional(),
+    // Override for the Eastern-time poll close (24h "HH:MM"), for districts that differ from their state.
+    pollsClose: z.string().regex(/^\d{1,2}:\d{2}$/).optional(),
     electionDate: z.coerce.date().default(new Date('2026-11-03')),
     incumbentParty: z.enum(['D', 'R', 'I']).optional(),
     openSeat: z.boolean().default(false),

@@ -25,6 +25,7 @@ th, td { border: 1px solid var(--rule); padding: .35rem .7rem; text-align: left;
 .toc ol { padding-left: 1.2rem; font-family: system-ui, sans-serif; font-size: .95rem; }
 .ratings { border: 1px solid var(--rule); border-radius: 4px; padding: .6rem 1rem; margin: 1rem 0; font-family: system-ui, sans-serif; }
 .ratings h2 { font-size: 1rem; margin: 0 0 .4rem; }
+.ratings .ratings-note { margin: .5rem 0 0; font-size: .8rem; color: var(--muted); }
 .ratings .asof { font-weight: 400; color: var(--muted); font-size: .85rem; margin-left: .4rem; }
 .ratings dl { display: grid; grid-template-columns: max-content 1fr; gap: .15rem 1rem; margin: 0; font-size: .95rem; }
 .ratings dt { color: var(--muted); }
@@ -49,7 +50,8 @@ main:has(.browser) { max-width: 72rem; }
 .race-table tbody th { font-weight: 600; white-space: normal; min-width: 11rem; }
 .race-table tbody th .sub { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; }
 .race-table .fc { text-align: center; }
-.race-table .date, .race-table .seat { color: var(--muted); }
+.race-table .date, .race-table .seat, .race-table .close { color: var(--muted); }
+.race-table .close { white-space: nowrap; }
 .race-table tr[hidden] { display: none; }
 .chip { display: inline-block; min-width: 4.6rem; text-align: center; padding: .1rem .5rem; border-radius: 3px; font-size: .78rem; font-weight: 600; color: var(--fg); border: 1px solid transparent; }
 .tone-R3 { background: hsl(var(--tone-r) / .55); } .tone-R2 { background: hsl(var(--tone-r) / .38); }

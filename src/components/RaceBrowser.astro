@@ -1,6 +1,6 @@
 ---
 import {
-  FORECASTERS, consensusOf, fmtShort, raceLabel, raceUrl, ratingFor, type Race,
+  FORECASTERS, consensusOf, fmtClose, fmtShort, pollsCloseET, raceLabel, raceUrl, ratingFor, type Race,
 } from '../lib';
 
 interface Props { races: Race[]; id: string }
@@ -14,6 +14,7 @@ const rows = races.map((race) => {
     seat: race.data.openSeat ? 'open' : 'incumbent',
     held: race.data.incumbentParty ?? '',
     cells: FORECASTERS.map((f) => ratingFor(race, f)),
+    close: pollsCloseET(race),
   };
 });
 
@@ -23,6 +24,7 @@ const sbLeader = (race: Race) => {
   if (!w?.length) return null;
   return [...w].sort((a, b) => b.pct - a.pct)[0];
 };
+const closeTimes = [...new Set(rows.map((r) => r.close).filter((c): c is number => c !== null))].sort((a, b) => a - b);
 const states = [...new Set(races.map((r) => r.data.state))].sort();
 const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt D', 'Lean D', 'Likely D', 'Solid D'].filter(
   (label) => rows.some((r) => r.consensus.label === label),
@@ -40,6 +42,12 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
       <select name="cat">
         <option value="">All</option>
         {categories.map((c) => <option>{c}</option>)}
+      </select>
+    </label>
+    <label>Polls close (ET)
+      <select name="close">
+        <option value="">Any time</option>
+        {closeTimes.map((c) => <option value={c}>{fmtClose(c)}</option>)}
       </select>
     </label>
     <label>Seat
@@ -62,7 +70,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
         <option value="close">Most competitive first</option>
         <option value="d">Most Democratic first</option>
         <option value="r">Most Republican first</option>
-        <option value="date">Oldest briefing first</option>
+        <option value="time">Polls close, earliest first</option>
       </select>
     </label>
     <button type="button" data-reset>Reset</button>
@@ -75,6 +83,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
         <tr>
           <th scope="col">Race</th>
           <th scope="col">Seat</th>
+          <th scope="col" title="When most of the state's polls close, Eastern time. Election Day is Tuesday, Nov. 3, 2026.">Polls close</th>
           <th scope="col">Consensus</th>
           {FORECASTERS.map((f) => <th scope="col" class="fc">{f.key}</th>)}
           {hasSB && <th scope="col" class="fc" title="FLIPR (Silver Bulletin), Deluxe model: leader's win probability">FLIPR</th>}
@@ -82,14 +91,15 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
         </tr>
       </thead>
       <tbody>
-        {rows.map(({ race, consensus, seat, held, cells }) => (
+        {rows.map(({ race, consensus, seat, held, cells, close }) => (
           <tr
             data-state={race.data.state}
             data-cat={consensus.label}
             data-seat={seat}
             data-held={held}
             data-score={consensus.score ?? ''}
-            data-date={race.data.briefingDate.toISOString().slice(0, 10)}
+            data-close={close ?? ''}
+            data-date={(race.data.ratingsAsOf ?? race.data.briefingDate).toISOString().slice(0, 10)}
             data-order={`${race.data.state}-${String(race.data.district ?? 0).padStart(2, '0')}`}
           >
             <th scope="row">
@@ -99,6 +109,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
             <td class="seat">
               {held ? `${held}-held` : '—'}{race.data.openSeat ? ', open' : ''}
             </td>
+            <td class="close">{fmtClose(close)}</td>
             <td><span class={`chip tone-${consensus.tone}`} title={`Average of ${Object.keys(race.data.ratings).length} forecaster${Object.keys(race.data.ratings).length === 1 ? '' : 's'}`}>{consensus.label}</span></td>
             {cells.map((c) => (
               <td class="fc">
@@ -109,7 +120,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
               const l = sbLeader(race);
               return <td class="fc">{l ? <span class={`sb-chip party-text-${l.party}`} title={`${l.name} (${l.party}), ${l.pct}% win probability`}>{l.party} {Math.round(l.pct)}%</span> : <span class="none">—</span>}</td>;
             })()}
-            <td class="date">{fmtShort(race.data.briefingDate)}</td>
+            <td class="date">{fmtShort(race.data.ratingsAsOf ?? race.data.briefingDate)}</td>
           </tr>
         ))}
       </tbody>
@@ -117,7 +128,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
   </div>
   <p class="meta legend">
     Consensus is the average of the forecasters listed for each race (Solid = 3, Likely = 2, Lean = 1, Tilt = ½, Toss Up = 0);
-    it is a convenience summary of outside ratings, not a prediction. Hover a rating to see the source note. Briefing dates differ.
+    it is a convenience summary of outside ratings, not a prediction. Hover a rating to see the source note. Poll-close times are Eastern and reflect when most of each state's polls close; a few districts in split-timezone states differ.
   </p>
 </div>
 
@@ -135,7 +146,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
       close: (a, b) => Math.abs(num(a)) - Math.abs(num(b)) || a.dataset.order!.localeCompare(b.dataset.order!),
       d: (a, b) => num(b) - num(a) || a.dataset.order!.localeCompare(b.dataset.order!),
       r: (a, b) => num(a) - num(b) || a.dataset.order!.localeCompare(b.dataset.order!),
-      date: (a, b) => a.dataset.date!.localeCompare(b.dataset.date!) || a.dataset.order!.localeCompare(b.dataset.order!),
+      time: (a, b) => (Number(a.dataset.close || 9999) - Number(b.dataset.close || 9999)) || a.dataset.order!.localeCompare(b.dataset.order!),
     };
 
     const apply = () => {
@@ -146,6 +157,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
         const ok =
           (!get('state') || r.dataset.state === get('state')) &&
           (!get('cat') || r.dataset.cat === get('cat')) &&
+          (!get('close') || r.dataset.close === get('close')) &&
           (!get('seat') || r.dataset.seat === get('seat')) &&
           (!get('held') || r.dataset.held === get('held'));
         r.hidden = !ok;

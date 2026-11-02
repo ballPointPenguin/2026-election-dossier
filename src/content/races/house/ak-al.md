@@ -4,12 +4,14 @@ state: AK
 title: An independent challenges Begich under ranked-choice voting
 summary: Republican Rep. Nick Begich III leads in polls but faces independent Bill Hill, a Bristol Bay fisherman and former school superintendent backed by Democrats, in Alaska's ranked-choice at-large race; Cook and Sabato rate it Lean Republican.
 briefingDate: 2026-11-02
+ratingsAsOf: 2026-11-02
 incumbentParty: R
 openSeat: false
 ratings:
-  Cook Political Report: Lean Republican (from Likely R, Oct. 24)
-  Sabato's Crystal Ball: Lean Republican (Oct. 28)
-  Inside Elections: Likely Republican
+  Cook Political Report: Lean Republican (checked Nov. 2)
+  Sabato's Crystal Ball: Lean Republican (Nov. 2)
+  Inside Elections: Likely Republican (updated Oct. 29)
+  Decision Desk HQ: Lean Republican (updated Nov. 2)
 candidates:
   - { name: Nick Begich III, party: R }
   - { name: Bill Hill, party: I }
@@ -136,9 +138,10 @@ Through October 14, 2026. Begich has a large edge in direct fundraising, but Hil
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Lean Republican (from Likely R, Oct. 24) |
-| Sabato's Crystal Ball | Lean Republican (Oct. 28) |
-| Inside Elections | Likely Republican |
+| Cook Political Report | Lean Republican (checked Nov. 2) |
+| Sabato's Crystal Ball | Lean Republican (Nov. 2) |
+| Inside Elections | Likely Republican (updated Oct. 29) |
+| Decision Desk HQ | Lean Republican (updated Nov. 2) |
 
 | Pollster (sponsor) | Dates | Begich | Hill | Hafner |
 | --- | --- | --- | --- | --- |
