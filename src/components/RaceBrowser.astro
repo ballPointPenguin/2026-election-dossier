@@ -1,0 +1,159 @@
+---
+import {
+  FORECASTERS, consensusOf, fmtShort, raceLabel, raceUrl, ratingFor, type Race,
+} from '../lib';
+
+interface Props { races: Race[]; id: string }
+const { races, id } = Astro.props;
+
+const rows = races.map((race) => {
+  const c = consensusOf(race);
+  return {
+    race,
+    consensus: c,
+    seat: race.data.openSeat ? 'open' : 'incumbent',
+    held: race.data.incumbentParty ?? '',
+    cells: FORECASTERS.map((f) => ratingFor(race, f)),
+  };
+});
+
+const states = [...new Set(races.map((r) => r.data.state))].sort();
+const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt D', 'Lean D', 'Likely D', 'Solid D'].filter(
+  (label) => rows.some((r) => r.consensus.label === label),
+);
+---
+<div class="browser" data-browser>
+  <form class="filters" hidden aria-label="Filter and sort races">
+    <label>State
+      <select name="state">
+        <option value="">All</option>
+        {states.map((s) => <option>{s}</option>)}
+      </select>
+    </label>
+    <label>Consensus rating
+      <select name="cat">
+        <option value="">All</option>
+        {categories.map((c) => <option>{c}</option>)}
+      </select>
+    </label>
+    <label>Seat
+      <select name="seat">
+        <option value="">All</option>
+        <option value="open">Open seats</option>
+        <option value="incumbent">Incumbent running</option>
+      </select>
+    </label>
+    <label>Held by
+      <select name="held">
+        <option value="">Either</option>
+        <option value="R">Republicans</option>
+        <option value="D">Democrats</option>
+      </select>
+    </label>
+    <label>Sort by
+      <select name="sort">
+        <option value="state">State and district</option>
+        <option value="close">Most competitive first</option>
+        <option value="d">Most Democratic first</option>
+        <option value="r">Most Republican first</option>
+        <option value="date">Oldest briefing first</option>
+      </select>
+    </label>
+    <button type="button" data-reset>Reset</button>
+    <output class="count" aria-live="polite"></output>
+  </form>
+
+  <div class="table-wrap">
+    <table class="race-table" id={id}>
+      <thead>
+        <tr>
+          <th scope="col">Race</th>
+          <th scope="col">Seat</th>
+          <th scope="col">Consensus</th>
+          {FORECASTERS.map((f) => <th scope="col" class="fc">{f.key}</th>)}
+          <th scope="col">As of</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map(({ race, consensus, seat, held, cells }) => (
+          <tr
+            data-state={race.data.state}
+            data-cat={consensus.label}
+            data-seat={seat}
+            data-held={held}
+            data-score={consensus.score ?? ''}
+            data-date={race.data.briefingDate.toISOString().slice(0, 10)}
+            data-order={`${race.data.state}-${String(race.data.district ?? 0).padStart(2, '0')}`}
+          >
+            <th scope="row">
+              <a href={raceUrl(race)}>{raceLabel(race)}</a>
+              <span class="sub">{race.data.title}</span>
+            </th>
+            <td class="seat">
+              {held ? `${held}-held` : '—'}{race.data.openSeat ? ', open' : ''}
+            </td>
+            <td><span class={`chip tone-${consensus.tone}`} title={`Average of ${Object.keys(race.data.ratings).length} forecaster${Object.keys(race.data.ratings).length === 1 ? '' : 's'}`}>{consensus.label}</span></td>
+            {cells.map((c) => (
+              <td class="fc">
+                {c ? <span class={`chip tone-${c.tone}`} title={c.raw}>{c.label}</span> : <span class="none">—</span>}
+              </td>
+            ))}
+            <td class="date">{fmtShort(race.data.briefingDate)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="meta legend">
+    Consensus is the average of the forecasters listed for each race (Solid = 3, Likely = 2, Lean = 1, Tilt = ½, Toss Up = 0);
+    it is a convenience summary of outside ratings, not a prediction. Hover a rating to see the source note. Briefing dates differ.
+  </p>
+</div>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-browser]')) {
+    const form = root.querySelector<HTMLFormElement>('form.filters')!;
+    const body = root.querySelector('tbody')!;
+    const rows = [...body.querySelectorAll<HTMLTableRowElement>('tr')];
+    const out = form.querySelector('output')!;
+    form.hidden = false;
+
+    const num = (r: HTMLElement) => (r.dataset.score === '' ? 0 : Number(r.dataset.score));
+    const sorters: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
+      state: (a, b) => a.dataset.order!.localeCompare(b.dataset.order!),
+      close: (a, b) => Math.abs(num(a)) - Math.abs(num(b)) || a.dataset.order!.localeCompare(b.dataset.order!),
+      d: (a, b) => num(b) - num(a) || a.dataset.order!.localeCompare(b.dataset.order!),
+      r: (a, b) => num(a) - num(b) || a.dataset.order!.localeCompare(b.dataset.order!),
+      date: (a, b) => a.dataset.date!.localeCompare(b.dataset.date!) || a.dataset.order!.localeCompare(b.dataset.order!),
+    };
+
+    const apply = () => {
+      const f = new FormData(form);
+      const get = (k: string) => String(f.get(k) ?? '');
+      let shown = 0;
+      for (const r of rows) {
+        const ok =
+          (!get('state') || r.dataset.state === get('state')) &&
+          (!get('cat') || r.dataset.cat === get('cat')) &&
+          (!get('seat') || r.dataset.seat === get('seat')) &&
+          (!get('held') || r.dataset.held === get('held'));
+        r.hidden = !ok;
+        if (ok) shown++;
+      }
+      rows.sort(sorters[get('sort')] ?? sorters.state).forEach((r) => body.appendChild(r));
+      out.textContent = `Showing ${shown} of ${rows.length}`;
+      const q = new URLSearchParams();
+      for (const [k, v] of f) if (v && !(k === 'sort' && v === 'state')) q.set(k, String(v));
+      history.replaceState(null, '', q.toString() ? `?${q}` : location.pathname);
+    };
+
+    // restore state from the URL so filtered views can be shared
+    const params = new URLSearchParams(location.search);
+    for (const el of form.elements) {
+      if (el instanceof HTMLSelectElement && params.has(el.name)) el.value = params.get(el.name)!;
+    }
+    form.addEventListener('change', apply);
+    form.querySelector('[data-reset]')!.addEventListener('click', () => { form.reset(); apply(); });
+    apply();
+  }
+</script>

@@ -34,3 +34,69 @@ export async function getRaces(office?: Office): Promise<Race[]> {
 
 export const fmtDate = (d: Date) =>
   d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+
+// ---- Forecaster ratings -------------------------------------------------
+
+export const FORECASTERS = [
+  { key: 'Cook', test: /^Cook/i },
+  { key: 'Inside', test: /^Inside/i },
+  { key: 'Sabato', test: /^Sabato/i },
+  { key: 'DDHQ', test: /^Decision Desk/i },
+] as const;
+
+export type Tone = 'R3' | 'R2' | 'R1' | 'R0' | 'T' | 'D0' | 'D1' | 'D2' | 'D3' | 'X';
+
+export interface Rating {
+  /** Compact label, e.g. "Lean D" */
+  label: string;
+  /** Positive = Democratic, negative = Republican; null when ambiguous */
+  score: number | null;
+  tone: Tone;
+  /** The full source string, for tooltips */
+  raw: string;
+}
+
+const STRENGTH: Record<string, number> = { Solid: 3, Safe: 3, Likely: 2, Lean: 1, Tilt: 0.5 };
+
+export function parseRating(raw: string): Rating {
+  const head = raw.split('(')[0].trim();
+  if (/\bor\b/i.test(head)) return { label: 'Disputed', score: null, tone: 'X', raw };
+  if (/^Toss ?Up/i.test(head)) return { label: 'Toss Up', score: 0, tone: 'T', raw };
+  const m = head.match(/^(Solid|Safe|Likely|Lean|Tilt)\s+(Republican|Democratic)/i);
+  if (!m) throw new Error(`Unrecognized rating: "${raw}"`);
+  const word = m[1][0].toUpperCase() + m[1].slice(1).toLowerCase();
+  const sign = /^R/i.test(m[2]) ? -1 : 1;
+  const side = sign < 0 ? 'R' : 'D';
+  const mag = STRENGTH[word];
+  const short = word === 'Safe' ? 'Solid' : word;
+  const tone = `${side}${mag === 3 ? 3 : mag === 2 ? 2 : mag === 1 ? 1 : 0}` as Tone;
+  return { label: `${short} ${side}`, score: sign * mag, tone, raw };
+}
+
+export function ratingFor(race: Race, forecaster: (typeof FORECASTERS)[number]): Rating | undefined {
+  const entry = Object.entries(race.data.ratings).find(([name]) => forecaster.test.test(name));
+  return entry ? parseRating(entry[1]) : undefined;
+}
+
+/** Mean of the forecasters' scores, or null if there are none. */
+export function consensusScore(race: Race): number | null {
+  const scores = Object.values(race.data.ratings)
+    .map((v) => parseRating(v).score)
+    .filter((s): s is number => s !== null);
+  return scores.length ? scores.reduce((a, b) => a + b, 0) / scores.length : null;
+}
+
+export function consensusOf(race: Race): { label: string; tone: Tone; score: number | null } {
+  const score = consensusScore(race);
+  if (score === null) return { label: 'Unrated', tone: 'X', score };
+  const a = Math.abs(score);
+  const side = score < 0 ? 'R' : 'D';
+  if (a < 0.25) return { label: 'Toss Up', tone: 'T', score };
+  if (a < 0.75) return { label: `Tilt ${side}`, tone: `${side}0` as Tone, score };
+  if (a < 1.5) return { label: `Lean ${side}`, tone: `${side}1` as Tone, score };
+  if (a < 2.5) return { label: `Likely ${side}`, tone: `${side}2` as Tone, score };
+  return { label: `Solid ${side}`, tone: `${side}3` as Tone, score };
+}
+
+export const fmtShort = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });

@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import RaceList from '../../components/RaceList.astro';
+import RaceBrowser from '../../components/RaceBrowser.astro';
 import { OFFICES, getRaces, type Office } from '../../lib';
 
 export function getStaticPaths() {
@@ -11,5 +11,5 @@ const races = await getRaces(office);
 ---
 <Base title={`${OFFICES[office]} · 2026 Election Dossier`}>
   <h1>{OFFICES[office]}</h1>
-  <RaceList races={races} />
+  {races.length > 0 ? <RaceBrowser races={races} id={`${office}-table`} /> : <p class="meta">No races yet.</p>}
 </Base>
