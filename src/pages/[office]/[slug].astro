@@ -44,12 +44,13 @@ const { data } = race;
   <p class="meta">Briefing of {fmtDate(data.briefingDate)} · Election Day {fmtDate(data.electionDate)}</p>
   {Object.keys(data.ratings).length > 0 && (
     <section class="ratings" aria-label="Forecaster ratings">
-      <h2>Forecaster ratings <span class="asof">as of {fmtDate(data.briefingDate)}</span></h2>
+      <h2>Forecaster ratings <span class="asof">as of {fmtDate(data.ratingsAsOf ?? data.briefingDate)}</span></h2>
       <dl>
         {Object.entries(data.ratings).map(([who, rating]) => (
           <><dt>{who}</dt><dd>{rating}</dd></>
         ))}
       </dl>
+      <p class="ratings-note">Dates in parentheses are each forecaster's own update, or when it was checked.</p>
     </section>
   )}
   {data.silverBulletin && <SilverBulletin data={data.silverBulletin} />}

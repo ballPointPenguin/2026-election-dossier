@@ -89,7 +89,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
             data-seat={seat}
             data-held={held}
             data-score={consensus.score ?? ''}
-            data-date={race.data.briefingDate.toISOString().slice(0, 10)}
+            data-date={(race.data.ratingsAsOf ?? race.data.briefingDate).toISOString().slice(0, 10)}
             data-order={`${race.data.state}-${String(race.data.district ?? 0).padStart(2, '0')}`}
           >
             <th scope="row">
@@ -109,7 +109,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
               const l = sbLeader(race);
               return <td class="fc">{l ? <span class={`sb-chip party-text-${l.party}`} title={`${l.name} (${l.party}), ${l.pct}% win probability`}>{l.party} {Math.round(l.pct)}%</span> : <span class="none">—</span>}</td>;
             })()}
-            <td class="date">{fmtShort(race.data.briefingDate)}</td>
+            <td class="date">{fmtShort(race.data.ratingsAsOf ?? race.data.briefingDate)}</td>
           </tr>
         ))}
       </tbody>
