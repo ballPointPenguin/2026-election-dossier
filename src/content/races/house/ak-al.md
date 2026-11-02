@@ -10,6 +10,7 @@ ratings:
   Cook Political Report: Lean Republican (checked Nov. 2)
   Sabato's Crystal Ball: Lean Republican (Nov. 2)
   Inside Elections: Likely Republican (updated Oct. 29)
+  Decision Desk HQ: Lean Republican (updated Nov. 2)
 candidates:
   - { name: Nick Begich III, party: R }
   - { name: Bill Hill, party: I }
@@ -139,6 +140,7 @@ Through October 14, 2026. Begich has a large edge in direct fundraising, but Hil
 | Cook Political Report | Lean Republican (checked Nov. 2) |
 | Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 | Inside Elections | Likely Republican (updated Oct. 29) |
+| Decision Desk HQ | Lean Republican (updated Nov. 2) |
 
 | Pollster (sponsor) | Dates | Begich | Hill | Hafner |
 | --- | --- | --- | --- | --- |
