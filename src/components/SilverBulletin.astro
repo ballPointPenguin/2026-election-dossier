@@ -15,8 +15,8 @@ const { data } = Astro.props;
 const names = data.average?.candidates.map((c) => c.name) ?? [];
 const maxInfluence = Math.max(...data.polls.map((p) => p.influence ?? 0), 0.0001);
 ---
-<section class="sb" aria-label="Silver Bulletin forecast">
-  <h2>Silver Bulletin forecast <span class="asof">{data.model} model, updated {fmtDate(data.updated)}</span></h2>
+<section class="sb" aria-label="FLIPR forecast">
+  <h2>FLIPR forecast <span class="asof">{data.model} model, updated {fmtDate(data.updated)}</span></h2>
 
   <div class="sb-prob" role="img" aria-label={data.winProb.map((c) => `${c.name} ${c.pct}%`).join(', ')}>
     {data.winProb.map((c) => <div class={`seg party-${c.party}`} style={`flex: ${c.pct}`}>{c.pct >= 12 && `${c.name} ${c.pct}%`}</div>)}
@@ -64,7 +64,8 @@ const maxInfluence = Math.max(...data.polls.map((p) => p.influence ?? 0), 0.0001
     </details>
   )}
   <p class="meta">
-    Figures transcribed by hand from <a href="https://www.natesilver.net/">Silver Bulletin</a>'s House forecast; the model
-    updates often, so check the source for current numbers. Win probability is a model output, not a poll or a rating.
+    FLIPR (Forecast with Leading Indicators, Polls and (Expert) Ratings) is <a href="https://www.natesilver.net/">Silver Bulletin</a>'s
+    2026 midterm model. Figures here are transcribed by hand and the model updates often, so check the source for current
+    numbers. Win probability is a model output, not a poll or a rating.
   </p>
 </section>

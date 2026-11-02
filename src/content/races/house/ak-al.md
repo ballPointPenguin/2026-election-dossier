@@ -143,12 +143,12 @@ Through October 14, 2026. Begich has a large edge in direct fundraising, but Hil
 | Pollster (sponsor) | Dates | Begich | Hill | Hafner |
 | --- | --- | --- | --- | --- |
 | The New York Times/Siena College (593 LV) | Oct. 23–30 | 46% | 39% | 6% |
-| Public Policy Polling (Democratic-aligned; registered voters; not in Silver Bulletin's average) | Oct. 14–15 | 45% | 44% | 5% |
+| Public Policy Polling (Democratic-aligned; registered voters; not in FLIPR's polling average) | Oct. 14–15 | 45% | 44% | 5% |
 | Data for Progress (progressive-aligned; 681 LV) | Oct. 8–16 | 49% | 43% | 5% |
 | Alaska Survey Research (1,512 LV) | Oct. 1–3 | 50% | 40% | 7% |
 | Fabrizio Lee & Associates/Impact Research (800 LV) | Sept. 8–11 | 48% | 33% | 10% |
 
-Poll figures follow Silver Bulletin's listing (see the forecast box above), which differs in places from earlier summaries of the same polls (for example, the Siena dates and the Data for Progress and AARP/Fabrizio numbers). An earlier summary of Data for Progress's release gave a modeled final ranked-choice round of Begich 51%, Hill 49%, much closer than its first-choice margin. Alaska Survey Research estimated a final round around Begich 53%, Hill 47%. The PPP poll is registered voters, so it isn't directly comparable. Begich keeps an advantage but Hill has a plausible route through turnout and preference transfers.
+Poll figures follow the polls list in the FLIPR forecast box above, which differs in places from earlier summaries of the same polls (for example, the Siena dates and the Data for Progress and AARP/Fabrizio numbers). An earlier summary of Data for Progress's release gave a modeled final ranked-choice round of Begich 51%, Hill 49%, much closer than its first-choice margin. Alaska Survey Research estimated a final round around Begich 53%, Hill 47%. The PPP poll is registered voters, so it isn't directly comparable. Begich keeps an advantage but Hill has a plausible route through turnout and preference transfers.
 
 ## What to watch on election night
 

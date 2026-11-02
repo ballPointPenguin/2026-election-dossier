@@ -7,7 +7,7 @@ import { z } from 'astro/zod';
 const party = z.enum(['R', 'D', 'I', 'L', 'G', 'O']);
 const candidatePct = z.object({ name: z.string(), party, pct: z.number() });
 
-// Figures transcribed by hand from silver bulletin's House forecast pages.
+// FLIPR forecast (Silver Bulletin's midterm model); figures transcribed by hand from its House pages.
 const silverBulletin = z.object({
   updated: z.coerce.date(),
   model: z.string().default('Deluxe'),
