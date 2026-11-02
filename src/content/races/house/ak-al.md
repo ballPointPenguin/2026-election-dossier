@@ -8,7 +8,7 @@ incumbentParty: R
 openSeat: false
 ratings:
   Cook Political Report: Lean Republican (from Likely R, Oct. 24)
-  Sabato's Crystal Ball: Lean Republican (Oct. 28)
+  Sabato's Crystal Ball: Lean Republican (Nov. 2)
   Inside Elections: Likely Republican
 candidates:
   - { name: Nick Begich III, party: R }
@@ -137,7 +137,7 @@ Through October 14, 2026. Begich has a large edge in direct fundraising, but Hil
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Lean Republican (from Likely R, Oct. 24) |
-| Sabato's Crystal Ball | Lean Republican (Oct. 28) |
+| Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 | Inside Elections | Likely Republican |
 
 | Pollster (sponsor) | Dates | Begich | Hill | Hafner |
