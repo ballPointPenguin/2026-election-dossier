@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import RaceList from '../components/RaceList.astro';
+import RaceBrowser from '../components/RaceBrowser.astro';
 import { OFFICES, getRaces, url, type Office } from '../lib';
 
 const sections = await Promise.all(
@@ -9,11 +9,13 @@ const sections = await Promise.all(
 ---
 <Base title="2026 Election Dossier">
   <h1>2026 Election Dossier</h1>
-  <p>Briefings on selected, closely watched races in the November 3, 2026 U.S. midterms. Not exhaustive.</p>
+  <p>Briefings on selected, closely watched races in the November 3, 2026 U.S. midterms. Not exhaustive; vibe-check summaries, not reporting.</p>
   {sections.map(({ office, races }) => (
     <section>
-      <h2><a href={url(`${office}/`)}>{OFFICES[office]}</a></h2>
-      <RaceList races={races} />
+      <h2><a href={url(`${office}/`)}>{OFFICES[office]}</a> <span class="meta">{races.length} {races.length === 1 ? 'race' : 'races'}</span></h2>
+      {races.length > 0
+        ? <RaceBrowser races={races} id={`${office}-table`} />
+        : <p class="meta">No races yet.</p>}
     </section>
   ))}
 </Base>
