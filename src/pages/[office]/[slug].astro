@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { OFFICES, fmtDate, getRaces, raceLabel, raceUrl, slugOf, url } from '../../lib';
+import { OFFICES, STATE_NAMES, consensusOf, fmtDate, getRaces, raceLabel, raceUrl, slugOf, url } from '../../lib';
 
 export async function getStaticPaths() {
   const races = await getRaces();
@@ -24,6 +24,15 @@ const all = await getRaces();
 const related = race.data.related
   .map((slug) => all.find((r) => slugOf(r) === slug)!)
   .sort((a, b) => raceLabel(a).localeCompare(raceLabel(b)));
+// Other races in the same state that aren't already listed as related.
+const sameState = all
+  .filter(
+    (r) =>
+      r.data.state === race.data.state &&
+      r.id !== race.id &&
+      !race.data.related.includes(slugOf(r)),
+  )
+  .sort((a, b) => raceLabel(a).localeCompare(raceLabel(b), 'en', { numeric: true }));
 const { Content, headings } = await render(race);
 const sections = headings.filter((h) => h.depth === 2);
 const { data } = race;
@@ -53,6 +62,19 @@ const { data } = race;
       <h2>Related races</h2>
       <ul>
         {related.map((r) => <li><a href={raceUrl(r)}>{raceLabel(r)}</a>: {r.data.title}</li>)}
+      </ul>
+    </section>
+  )}
+  {sameState.length > 0 && (
+    <section class="related">
+      <h2>More from {STATE_NAMES[race.data.state] ?? race.data.state}</h2>
+      <ul>
+        {sameState.map((r) => (
+          <li>
+            <a href={raceUrl(r)}>{raceLabel(r)}</a>: {r.data.title}
+            <span class={`chip tone-${consensusOf(r).tone}`}>{consensusOf(r).label}</span>
+          </li>
+        ))}
       </ul>
     </section>
   )}

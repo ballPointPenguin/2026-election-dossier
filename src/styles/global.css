@@ -61,3 +61,4 @@ main:has(.browser) { max-width: 72rem; }
 .legend { margin-top: .6rem; }
 h2 .meta { font-weight: 400; font-size: .85rem; margin-left: .4rem; }
 body:has(.browser) header.site, body:has(.browser) footer.site { max-width: 72rem; }
+.related li .chip { margin-left: .5rem; min-width: 0; font-size: .72rem; padding: 0 .4rem; vertical-align: 1px; }
