@@ -30,3 +30,7 @@ Requires Node >= 22.22.
 ## Deploy
 
 Pushes to `main` build and deploy via `.github/workflows/deploy.yml`. One-time setup: repo **Settings → Pages → Build and deployment → Source: GitHub Actions**. The `base` path in `astro.config.mjs` assumes `https://ballpointpenguin.github.io/2026-election-dossier/`; change `site`/`base` for a custom domain.
+
+## FLIPR forecast data
+
+FLIPR (Forecast with Leading Indicators, Polls and (Expert) Ratings) is [Silver Bulletin](https://www.natesilver.net/)'s 2026 midterm model. A race may carry an optional `silverBulletin` block in its frontmatter (win probability, polling average, polls with influence weights; the field keeps the publication's name); see `src/content/races/house/ak-al.md` for the shape. It renders as a box on the race page and as a "FLIPR" column on the index (leader's win probability). Numbers are transcribed by hand from FLIPR's House pages (Deluxe model) and the model updates often, so set `updated` to the date shown on the source.

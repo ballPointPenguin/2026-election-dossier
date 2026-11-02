@@ -62,3 +62,23 @@ main:has(.browser) { max-width: 72rem; }
 h2 .meta { font-weight: 400; font-size: .85rem; margin-left: .4rem; }
 body:has(.browser) header.site, body:has(.browser) footer.site { max-width: 72rem; }
 .related li .chip { margin-left: .5rem; min-width: 0; font-size: .72rem; padding: 0 .4rem; vertical-align: 1px; }
+
+/* ---- Silver Bulletin block ---- */
+:root { --tone-i: 42 90% 45%; }
+.sb { border: 1px solid var(--rule); border-radius: 4px; padding: .6rem 1rem; margin: 1rem 0; font-family: system-ui, sans-serif; }
+.sb h2 { font-size: 1rem; margin: 0 0 .5rem; }
+.sb .asof { font-weight: 400; color: var(--muted); font-size: .85rem; margin-left: .4rem; }
+.sb-prob { display: flex; height: 1.6rem; border-radius: 3px; overflow: hidden; font-size: .8rem; font-weight: 600; }
+.sb-prob .seg { display: flex; align-items: center; padding: 0 .5rem; white-space: nowrap; overflow: hidden; color: var(--fg); }
+.party-R { background: hsl(var(--tone-r) / .45); } .party-D { background: hsl(var(--tone-d) / .45); }
+.party-I, .party-L, .party-G, .party-O { background: hsl(var(--tone-i) / .5); }
+.party-text-R { color: hsl(var(--tone-r)); } .party-text-D { color: hsl(var(--tone-d)); }
+.party-text-I, .party-text-L, .party-text-G, .party-text-O { color: hsl(var(--tone-i)); }
+.sb-legend, .sb-avg { font-size: .9rem; margin: .5rem 0; }
+.pty { font-weight: 600; }
+.sb details { margin: .5rem 0; font-size: .85rem; }
+.sb summary { cursor: pointer; color: var(--muted); }
+.sb-polls { font-size: .8rem; margin: .5rem 0; }
+.sb-polls .num { text-align: right; }
+.sb-polls .bar { display: inline-block; min-width: 3.2rem; padding: 0 .3rem; background: linear-gradient(90deg, var(--rule) var(--w), transparent var(--w)); font-variant-numeric: tabular-nums; }
+.sb-chip { font-weight: 700; font-size: .8rem; }

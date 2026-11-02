@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import SilverBulletin from '../../components/SilverBulletin.astro';
 import { OFFICES, STATE_NAMES, consensusOf, fmtDate, getRaces, raceLabel, raceUrl, slugOf, url } from '../../lib';
 
 export async function getStaticPaths() {
@@ -51,6 +52,7 @@ const { data } = race;
       </dl>
     </section>
   )}
+  {data.silverBulletin && <SilverBulletin data={data.silverBulletin} />}
   {sections.length > 1 && (
     <nav class="toc" aria-label="On this page">
       <ol>{sections.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>

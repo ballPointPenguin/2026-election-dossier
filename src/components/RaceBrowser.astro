@@ -17,6 +17,12 @@ const rows = races.map((race) => {
   };
 });
 
+const hasSB = races.some((r) => r.data.silverBulletin);
+const sbLeader = (race: Race) => {
+  const w = race.data.silverBulletin?.winProb;
+  if (!w?.length) return null;
+  return [...w].sort((a, b) => b.pct - a.pct)[0];
+};
 const states = [...new Set(races.map((r) => r.data.state))].sort();
 const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt D', 'Lean D', 'Likely D', 'Solid D'].filter(
   (label) => rows.some((r) => r.consensus.label === label),
@@ -71,6 +77,7 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
           <th scope="col">Seat</th>
           <th scope="col">Consensus</th>
           {FORECASTERS.map((f) => <th scope="col" class="fc">{f.key}</th>)}
+          {hasSB && <th scope="col" class="fc" title="FLIPR (Silver Bulletin), Deluxe model: leader's win probability">FLIPR</th>}
           <th scope="col">As of</th>
         </tr>
       </thead>
@@ -98,6 +105,10 @@ const categories = ['Solid R', 'Likely R', 'Lean R', 'Tilt R', 'Toss Up', 'Tilt 
                 {c ? <span class={`chip tone-${c.tone}`} title={c.raw}>{c.label}</span> : <span class="none">—</span>}
               </td>
             ))}
+            {hasSB && (() => {
+              const l = sbLeader(race);
+              return <td class="fc">{l ? <span class={`sb-chip party-text-${l.party}`} title={`${l.name} (${l.party}), ${l.pct}% win probability`}>{l.party} {Math.round(l.pct)}%</span> : <span class="none">—</span>}</td>;
+            })()}
             <td class="date">{fmtShort(race.data.briefingDate)}</td>
           </tr>
         ))}

@@ -4,6 +4,31 @@ import { z } from 'astro/zod';
 
 // One Markdown file per race, at src/content/races/<office>/<slug>.md.
 // The directory name must match `office`; the body is the briefing itself.
+const party = z.enum(['R', 'D', 'I', 'L', 'G', 'O']);
+const candidatePct = z.object({ name: z.string(), party, pct: z.number() });
+
+// FLIPR forecast (Silver Bulletin's midterm model); figures transcribed by hand from its House pages.
+const silverBulletin = z.object({
+  updated: z.coerce.date(),
+  model: z.string().default('Deluxe'),
+  winProb: z.array(candidatePct),
+  average: z
+    .object({ margin: z.string(), candidates: z.array(candidatePct) })
+    .optional(),
+  polls: z
+    .array(
+      z.object({
+        dates: z.string(),
+        pollster: z.string(),
+        sample: z.string(),
+        results: z.record(z.string(), z.number()), // keyed by candidate name
+        margin: z.string().optional(),
+        influence: z.number().optional(),
+      }),
+    )
+    .default([]),
+});
+
 const races = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/races' }),
   schema: z.object({
@@ -23,6 +48,7 @@ const races = defineCollection({
       .default([]),
     // Slugs of related races (e.g. 'pa-08'); must be mutual, checked at build time.
     related: z.array(z.string()).default([]),
+    silverBulletin: silverBulletin.optional(),
     draft: z.boolean().default(false),
   }),
 });

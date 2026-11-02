@@ -1,0 +1,71 @@
+---
+import { fmtDate } from '../lib';
+
+interface Cand { name: string; party: string; pct: number }
+interface Props {
+  data: {
+    updated: Date;
+    model: string;
+    winProb: Cand[];
+    average?: { margin: string; candidates: Cand[] };
+    polls: { dates: string; pollster: string; sample: string; results: Record<string, number>; margin?: string; influence?: number }[];
+  };
+}
+const { data } = Astro.props;
+const names = data.average?.candidates.map((c) => c.name) ?? [];
+const maxInfluence = Math.max(...data.polls.map((p) => p.influence ?? 0), 0.0001);
+---
+<section class="sb" aria-label="FLIPR forecast">
+  <h2>FLIPR forecast <span class="asof">{data.model} model, updated {fmtDate(data.updated)}</span></h2>
+
+  <div class="sb-prob" role="img" aria-label={data.winProb.map((c) => `${c.name} ${c.pct}%`).join(', ')}>
+    {data.winProb.map((c) => <div class={`seg party-${c.party}`} style={`flex: ${c.pct}`}>{c.pct >= 12 && `${c.name} ${c.pct}%`}</div>)}
+  </div>
+  <p class="sb-legend">
+    Win probability: {data.winProb.map((c, i) => <>{i > 0 && ' · '}<span class={`pty party-text-${c.party}`}>{c.name} ({c.party}) {c.pct}%</span></>)}
+  </p>
+
+  {data.average && (
+    <p class="sb-avg">
+      Polling average:
+      {data.average.candidates.map((c) => <> <span class={`pty party-text-${c.party}`}>{c.name} {c.pct}%</span></>)}
+      {" "}· margin <strong>{data.average.margin}</strong>
+    </p>
+  )}
+
+  {data.polls.length > 0 && (
+    <details>
+      <summary>Polls in the average ({data.polls.length})</summary>
+      <div class="table-wrap">
+        <table class="sb-polls">
+          <thead>
+            <tr>
+              <th>Dates</th><th>Pollster</th><th>Sample</th>
+              {names.map((n) => <th class="num">{n}</th>)}
+              <th>Margin</th><th>Influence</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.polls.map((p) => (
+              <tr>
+                <td>{p.dates}</td><td>{p.pollster}</td><td>{p.sample}</td>
+                {names.map((n) => <td class="num">{p.results[n] != null ? `${p.results[n]}%` : '—'}</td>)}
+                <td>{p.margin ?? '—'}</td>
+                <td>
+                  {p.influence != null
+                    ? <span class="bar" style={`--w: ${(p.influence / maxInfluence) * 100}%`}>{p.influence.toFixed(2)}</span>
+                    : '—'}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  )}
+  <p class="meta">
+    FLIPR (Forecast with Leading Indicators, Polls and (Expert) Ratings) is <a href="https://www.natesilver.net/">Silver Bulletin</a>'s
+    2026 midterm model. Figures here are transcribed by hand and the model updates often, so check the source for current
+    numbers. Win probability is a model output, not a poll or a rating.
+  </p>
+</section>
