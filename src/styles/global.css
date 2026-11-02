@@ -50,7 +50,8 @@ main:has(.browser) { max-width: 72rem; }
 .race-table tbody th { font-weight: 600; white-space: normal; min-width: 11rem; }
 .race-table tbody th .sub { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; }
 .race-table .fc { text-align: center; }
-.race-table .date, .race-table .seat { color: var(--muted); }
+.race-table .date, .race-table .seat, .race-table .close { color: var(--muted); }
+.race-table .close { white-space: nowrap; }
 .race-table tr[hidden] { display: none; }
 .chip { display: inline-block; min-width: 4.6rem; text-align: center; padding: .1rem .5rem; border-radius: 3px; font-size: .78rem; font-weight: 600; color: var(--fg); border: 1px solid transparent; }
 .tone-R3 { background: hsl(var(--tone-r) / .55); } .tone-R2 { background: hsl(var(--tone-r) / .38); }

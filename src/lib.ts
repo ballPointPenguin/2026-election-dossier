@@ -103,6 +103,38 @@ export const fmtShort = (d: Date) =>
 
 // ---- Geography ----------------------------------------------------------
 
+// When most of each state's polls close, in minutes after midnight Eastern (1440 = midnight; Alaska and
+// Hawaii are shown as 24:00). Split-timezone states use the zone covering most voters; override a district
+// with `pollsClose: "HH:MM"` (Eastern, 24h) in its frontmatter.
+const t = (h: number, m = 0) => h * 60 + m;
+export const POLL_CLOSE_ET: Record<string, number> = {
+  KY: t(18), IN: t(18),
+  FL: t(19), GA: t(19), SC: t(19), VA: t(19), VT: t(19),
+  NC: t(19, 30), OH: t(19, 30), WV: t(19, 30),
+  AL: t(20), CT: t(20), DE: t(20), IL: t(20), KS: t(20), ME: t(20), MD: t(20), MA: t(20), MI: t(20),
+  MS: t(20), MO: t(20), NH: t(20), NJ: t(20), OK: t(20), PA: t(20), RI: t(20), TN: t(20), TX: t(20),
+  AR: t(20, 30),
+  AZ: t(21), CO: t(21), LA: t(21), MN: t(21), NE: t(21), NM: t(21), NY: t(21), SD: t(21), WI: t(21), WY: t(21),
+  ID: t(22), IA: t(22), MT: t(22), NV: t(22), UT: t(22),
+  CA: t(23), OR: t(23), WA: t(23),
+  AK: t(24), HI: t(24),
+};
+
+/** Poll close in minutes after midnight Eastern, or null if unknown. */
+export function pollsCloseET(race: Race): number | null {
+  const o = race.data.pollsClose;
+  if (o) { const [h, m] = o.split(':').map(Number); return h * 60 + m; }
+  return POLL_CLOSE_ET[race.data.state] ?? null;
+}
+
+export function fmtClose(min: number | null): string {
+  if (min === null) return '—';
+  const h24 = Math.floor(min / 60) % 24;
+  const m = min % 60;
+  const h = h24 % 12 === 0 ? 12 : h24 % 12;
+  return `${h}:${String(m).padStart(2, '0')} ${h24 < 12 ? 'am' : 'pm'}`;
+}
+
 export const STATE_NAMES: Record<string, string> = {
   AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California', CO: 'Colorado',
   CT: 'Connecticut', DE: 'Delaware', FL: 'Florida', GA: 'Georgia', HI: 'Hawaii', ID: 'Idaho',

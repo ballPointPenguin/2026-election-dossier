@@ -13,6 +13,7 @@ This is a "vibe check" site for a few readers, not reporting. Gaps, fuzziness an
 - Tighten the prose and cut speculation; keep facts, figures and dates.
 - Poll numbers date fast, so keep them in a dated "Polling and ratings" section near the end, not in the lede or `summary`. Name the sponsor of each poll, and flag partisan sponsorship.
 - `ratingsAsOf` (optional, defaults to `briefingDate`) is the date the forecaster ratings were last refreshed; it feeds the ratings box caption and the index table's "As of" column. Put each forecaster's own date in its rating string, e.g. `Lean Democratic (Nov. 2)`.
+- Poll-close times come from the state (`POLL_CLOSE_ET` in `src/lib.ts`, Eastern). For a district that differs from its state (split time zones), set `pollsClose: "HH:MM"` (24h Eastern) in its frontmatter.
 - Use `##` headings without numbers; use `###` for individual candidates.
 - Turn flattened stat blocks into Markdown tables.
 - Drop chat artifacts (`?utm_source=chatgpt.com`, hotlinked images, "monitor…" calls to action, "N days until Election Day" countdowns).

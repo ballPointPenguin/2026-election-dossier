@@ -2,7 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import SilverBulletin from '../../components/SilverBulletin.astro';
-import { OFFICES, STATE_NAMES, consensusOf, fmtDate, getRaces, raceLabel, raceUrl, slugOf, url } from '../../lib';
+import { OFFICES, STATE_NAMES, consensusOf, fmtClose, fmtDate, pollsCloseET, getRaces, raceLabel, raceUrl, slugOf, url } from '../../lib';
 
 export async function getStaticPaths() {
   const races = await getRaces();
@@ -41,7 +41,7 @@ const { data } = race;
 <Base title={`${raceLabel(race)}: ${data.title}`} description={data.summary}>
   <p class="meta"><a href={url(`${data.office}/`)}>← {OFFICES[data.office]}</a></p>
   <h1>{raceLabel(race)}: {data.title}</h1>
-  <p class="meta">Briefing of {fmtDate(data.briefingDate)} · Election Day {fmtDate(data.electionDate)}</p>
+  <p class="meta">Briefing of {fmtDate(data.briefingDate)} · Election Day {fmtDate(data.electionDate)}{pollsCloseET(race) !== null && <> · Polls close {fmtClose(pollsCloseET(race))} ET</>}</p>
   {Object.keys(data.ratings).length > 0 && (
     <section class="ratings" aria-label="Forecaster ratings">
       <h2>Forecaster ratings <span class="asof">as of {fmtDate(data.ratingsAsOf ?? data.briefingDate)}</span></h2>
