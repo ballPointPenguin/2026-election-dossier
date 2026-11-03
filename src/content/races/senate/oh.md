@@ -16,6 +16,22 @@ candidates:
   - { name: Sherrod Brown, party: D }
   - { name: Bill Redpath, party: L }
   - { name: Gregory Levy, party: I }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Brown, party: D, pct: 74.3 }
+    - { name: Husted, party: R, pct: 25.7 }
+  average:
+    margin: D+3.0
+    candidates:
+      - { name: Brown, party: D, pct: 48.4 }
+      - { name: Husted, party: R, pct: 45.4 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,801 LV", results: { Brown: 51, Husted: 44 }, margin: D+8, influence: 2.81 }
+    - { dates: "Oct 31–Nov 1", pollster: "Emerson College", sample: "930 LV", results: { Brown: 46, Husted: 48 }, margin: R+3, influence: 2.58 }
+    - { dates: "Oct 31–Nov 1", pollster: "Trafalgar Group (R)", sample: "1,092 LV", results: { Brown: 47, Husted: 45 }, margin: D+2, influence: 2.01 }
+    - { dates: "Oct 26–Nov 1", pollster: "The New York Times/Siena College", sample: "717 LV", results: { Brown: 49, Husted: 44 }, margin: D+6, influence: 1.97 }
 ---
 
 <!-- TODO: Inside Elections rating not given in the source; add when known. -->
@@ -94,10 +110,11 @@ The Hill/Decision Desk HQ polling estimate, based on 53 surveys and not a predic
 
 | Pollster | Dates | Brown (D) | Husted (R) | Margin |
 | --- | --- | --- | --- | --- |
-| AtlasIntel | Nov. 1 | 51.4% | 43.9% | D+7.5 |
+| AtlasIntel | Oct. 28–Nov. 1 | 51.4% | 43.9% | D+7.5 |
 | Survey 160 | Nov. 1 | 50% | 46% | D+4 |
-| Emerson | Nov. 1–2 | 45.8% | 48.3% | R+2.5 |
-| NYT/Siena | Nov. 1 | 49% | 44% | D+5 |
+| Trafalgar Group (R) | Oct. 31–Nov. 1 | 47% | 45% | D+2 |
+| Emerson | Oct. 31–Nov. 1 | 45.8% | 48.3% | R+2.5 |
+| NYT/Siena | Oct. 26–Nov. 1 | 49% | 44% | D+5 |
 | Rasmussen | Oct. 31 | 46% | 46% | Tie |
 | Marist | Oct. 18 | 48% | 44% | D+4 |
 
