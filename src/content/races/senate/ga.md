@@ -12,6 +12,22 @@ ratings:
 candidates:
   - { name: Jon Ossoff, party: D }
   - { name: Mike Collins, party: R }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Ossoff, party: D, pct: 97.7 }
+    - { name: Collins, party: R, pct: 2.3 }
+  average:
+    margin: D+9.4
+    candidates:
+      - { name: Ossoff, party: D, pct: 52.8 }
+      - { name: Collins, party: R, pct: 43.4 }
+  polls:
+    - { dates: "Oct 31–Nov 2", pollster: "InsiderAdvantage", sample: "2,500 LV", results: { Ossoff: 53, Collins: 46 }, margin: D+7, influence: 2.63 }
+    - { dates: "Oct 31–Nov 2", pollster: "Research Co.", sample: "450 LV", results: { Ossoff: 52, Collins: 42 }, margin: D+10, influence: 1.68 }
+    - { dates: "Oct 16–23", pollster: "Echelon Insights", sample: "508 LV", results: { Ossoff: 55, Collins: 40 }, margin: D+15, influence: 0.95 }
+    - { dates: "Oct 15–17", pollster: "Quantus Insights", sample: "755 LV", results: { Ossoff: 53, Collins: 45 }, margin: D+7, influence: 0.59 }
 ---
 
 <!-- TODO: the source headline said "Toss-up / Lean Democratic" but the body (polls, RCP) points to Likely Democratic. Used Likely Democratic from RCP; replace with Cook/Inside/Sabato/DDHQ Senate ratings when available. -->
@@ -75,9 +91,10 @@ RealClearPolling's final average of seven recent polls has Ossoff at 51.9% and C
 
 | Pollster | Dates | Ossoff (D) | Collins (R) | Margin |
 | --- | --- | --- | --- | --- |
-| InsiderAdvantage | Nov. 2 | 53% | 46% | D+7 |
-| Research Co. | Nov. 2 | 52% | 42% | D+10 |
-| Echelon Insights | Oct. 23 | 55% | 40% | D+15 |
+| InsiderAdvantage | Oct. 31–Nov. 2 | 53% | 46% | D+7 |
+| Research Co. | Oct. 31–Nov. 2 | 52% | 42% | D+10 |
+| Echelon Insights | Oct. 16–23 | 55% | 40% | D+15 |
+| Quantus Insights | Oct. 15–17 | 53% | 45% | D+7 |
 | University of Georgia/AJC | Oct. 15 | 48% | 40% | D+8 |
 | Trafalgar | Oct. 9 | 51% | 43% | D+8 |
 
