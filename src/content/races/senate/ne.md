@@ -105,7 +105,7 @@ Forecasters differ on how much weight to give Nebraska's Republican lean: a Nove
 
 ## What to watch
 
-Nebraska polls close at 8 p.m. Central, 9 p.m. Eastern, with the western panhandle an hour later in local time but the same Eastern time. Early and absentee ballots may dominate many counties' first reports, so early leads may mislead. Per the source, Nebraska requires an automatic recount when a statewide margin is 1% or less. Watch Osborn's margins in Omaha and Lincoln, his performance in suburbs around Omaha, and whether he can improve substantially on typical Democratic results in rural Nebraska.
+Nebraska polls close at 8 p.m. Central (7 p.m. Mountain in the panhandle), 9 p.m. Eastern. Early and absentee ballots may dominate many counties' first reports, so early leads may mislead. Per the source, Nebraska requires an automatic recount when a statewide margin is 1% or less. Watch Osborn's margins in Omaha and Lincoln, his performance in suburbs around Omaha, and whether he can improve substantially on typical Democratic results in rural Nebraska.
 
 The governor's race, between Republican Gov. Jim Pillen and the Democratic nominee, is a useful comparison: if Osborn clearly outruns that candidate, it would suggest his independent, working-class identity reached voters beyond the usual Democratic coalition.
 
