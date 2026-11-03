@@ -19,6 +19,22 @@ candidates:
   - { name: Douglas Marsh, party: G }
   - { name: Timothy Long, party: U.S. Taxpayers }
   - { name: Walter Kristy, party: Natural Law }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: El-Sayed, party: D, pct: 87.1 }
+    - { name: Rogers, party: R, pct: 12.9 }
+  average:
+    margin: D+4.9
+    candidates:
+      - { name: El-Sayed, party: D, pct: 50.3 }
+      - { name: Rogers, party: R, pct: 45.4 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,316 LV", results: { El-Sayed: 54, Rogers: 46 }, margin: D+7, influence: 2.51 }
+    - { dates: "Oct 23–Nov 1", pollster: "The New York Times/Siena College", sample: "1,011 LV", results: { El-Sayed: 53, Rogers: 42 }, margin: D+11, influence: 2.06 }
+    - { dates: "Nov 1", pollster: "Emerson College", sample: "500 LV", results: { El-Sayed: 51, Rogers: 45 }, margin: D+6, influence: 2.01 }
+    - { dates: "Oct 31–Nov 2", pollster: "John Zogby Strategies", sample: "1,001 LV", results: { El-Sayed: 51, Rogers: 49 }, margin: D+2, influence: 1.88 }
 ---
 
 Michigan is one of the most important open-seat Senate contests of 2026. Sen. Gary Peters's retirement leaves a closely watched race in a state Donald Trump narrowly won in 2024. Democrats are defending a seat they've held continuously since 1979, and Republicans see a chance to break a long losing streak in Michigan Senate races.
@@ -93,6 +109,9 @@ Michigan's Senate race has drawn nearly $300 million in spending, one of the mos
 
 | Pollster | Dates | El-Sayed (D) | Rogers (R) | Margin |
 | --- | --- | --- | --- | --- |
+| John Zogby Strategies | Oct. 31–Nov. 2 | 51% | 49% | D+2 |
+| Emerson | Nov. 1 | 51% | 45% | D+6 |
+| AtlasIntel | Oct. 28–Nov. 1 | 54% | 46% | D+7 |
 | NYT/Siena | Oct. 23–Nov. 1 | 53% | 42% | D+11 |
 | YouGov | Oct. 29 | 51% | 47% | D+4 |
 | CNN/SSRS | Oct. 29 | 49% | 42% | D+7 |
