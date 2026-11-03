@@ -15,6 +15,22 @@ candidates:
   - { name: James Talarico, party: D }
   - { name: Ken Paxton, party: R }
   - { name: Ted Brown, party: L }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Talarico, party: D, pct: 78.5 }
+    - { name: Paxton, party: R, pct: 21.5 }
+  average:
+    margin: D+3.3
+    candidates:
+      - { name: Talarico, party: D, pct: 49.8 }
+      - { name: Paxton, party: R, pct: 46.5 }
+  polls:
+    - { dates: "Oct 27–Nov 1", pollster: "The New York Times/Siena College", sample: "1,215 LV", results: { Talarico: 50, Paxton: 43 }, margin: D+7, influence: 2.51 }
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,678 A", results: { Talarico: 51, Paxton: 45 }, margin: D+6, influence: 2.01 }
+    - { dates: "Oct 31–Nov 1", pollster: "Emerson College", sample: "500 LV", results: { Talarico: 50, Paxton: 48 }, margin: D+1, influence: 1.84 }
+    - { dates: "Oct 31–Nov 1", pollster: "Trafalgar Group (R)", sample: "1,089 LV", results: { Talarico: 48, Paxton: 48 }, margin: R+1, influence: 1.79 }
 ---
 
 <!-- TODO: the source said only that Inside Elections "gives Democrats a slight advantage"; entered as Tilt Democratic, an inference. Verify, and add DDHQ. -->
@@ -101,10 +117,10 @@ A weighted average of 44 polls (PolitiKool), not a forecast, has Talarico at 48.
 | Pollster | Dates | Talarico (D) | Paxton (R) | Margin |
 | --- | --- | --- | --- | --- |
 | Research Co. | Nov. 2 | 49% | 46% | D+3 |
-| Trafalgar | Nov. 1 | 47.5% | 48.1% | R+0.6 |
-| AtlasIntel | Nov. 1 | 51.3% | 45.4% | D+5.9 |
-| NYT/Siena | Nov. 1 | 50% | 43% | D+7 |
-| Emerson | Nov. 1 | 49.8% | 48.4% | D+1.4 |
+| Trafalgar Group (R) | Oct. 31–Nov. 1 | 47.5% | 48.1% | R+0.6 |
+| AtlasIntel | Oct. 28–Nov. 1 | 51.3% | 45.4% | D+5.9 |
+| NYT/Siena | Oct. 27–Nov. 1 | 50% | 43% | D+7 |
+| Emerson | Oct. 31–Nov. 1 | 49.8% | 48.4% | D+1.4 |
 | YouGov | Oct. 29 | 51% | 47% | D+4 |
 
 Cook and Sabato keep Toss Up ratings despite the polls, which is understandable: Texas has repeatedly disappointed Democrats who looked competitive in polling, and even a modest systematic error could flip the result. Talarico is the polling favorite, but it's a genuine Toss Up, and Paxton has the state's entrenched Republican infrastructure behind him.
