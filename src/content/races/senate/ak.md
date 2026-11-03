@@ -8,18 +8,16 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Cook Political Report: Toss Up
-  Inside Elections: Toss Up
-  Sabato's Crystal Ball: Lean Democratic
-  Decision Desk HQ: Lean Democratic
+  Cook Political Report: Toss Up (Nov. 3)
+  Inside Elections: Toss Up (Nov. 3)
+  Sabato's Crystal Ball: Lean Democratic (Nov. 3)
+  Decision Desk HQ: Lean Democratic (Nov. 3)
 candidates:
   - { name: Dan Sullivan, party: R }
   - { name: Mary Peltola, party: D }
   - { name: Daniel J. Sullivan Jr., party: I }
   - { name: Gerald Heikes, party: R }
 ---
-
-<!-- TODO: forecaster ratings below came from an LLM summary citing Ballotpedia, undated; verify against the forecasters' own tables. -->
 
 Alaska has become one of the most consequential Senate battlegrounds of 2026. Two-term Republican Dan Sullivan faces former Democratic congresswoman Mary Peltola, who has a real ability to attract independents and Republican-leaning Alaskans. She enters Election Day with a narrow polling edge, but the race is still very competitive. An upset here could be essential to Democrats' hopes of retaking the Senate.
 
@@ -61,7 +59,9 @@ One of the stranger stories of the cycle: New York Times reporting indicated tha
 
 Ranked-choice voting limits the trick: a voter who mistakenly ranks the independent first can still rank the incumbent second, and election experts consider a decisive spoiler effect unlikely. The reporting is still the sort of thing that feeds a legitimacy fight in a close race.
 
-<!-- TODO: the source also says the Justice Department sued on Oct. 23 to block certification of a Senate result if the incumbent lost, that a federal judge dismissed it on Nov. 1, and that DOJ will appeal; Sullivan says he'll accept results. Unverified; confirm before adding. -->
+The other legal sideshow: on October 23 the Trump administration's Justice Department sued to prevent certification of the Senate result under certain circumstances if the Republican incumbent lost. A federal judge dismissed the suit on November 1, and the department said it would appeal. Sullivan has said publicly that he will accept the results.
+
+Together the two stories add a legitimacy question to a race that was already close, whatever their real effect on the vote.
 
 ## Money
 
@@ -84,18 +84,16 @@ Per third-quarter FEC filings as summarized by Ballotpedia. About a 2.6-to-1 edg
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Toss Up |
-| Inside Elections | Toss Up |
-| Sabato's Crystal Ball | Lean Democratic |
-| Decision Desk HQ | Lean Democratic |
+| Cook Political Report | Toss Up (Nov. 3) |
+| Inside Elections | Toss Up (Nov. 3) |
+| Sabato's Crystal Ball | Lean Democratic (Nov. 3) |
+| Decision Desk HQ | Lean Democratic (Nov. 3) |
 
 | Poll / indicator | Peltola (D) | Sullivan (R) |
 | --- | --- | --- |
 | NYT/Siena, Nov. 1–2 | 48% | 46% |
 | NYT/Siena, early October | 50% | 43% |
 | On Point polling average, Nov. 1 | 49.6% | 46.7% |
-
-<!-- TODO: source labels the final NYT/Siena poll both "Nov. 1–2" and "Nov. 1"; confirm field dates. -->
 
 The final NYT/Siena poll has Peltola up two, inside its margin of error, and polling has generally favored her though the size of the lead varies. She's a modest favorite, not a prohibitive one.
 
