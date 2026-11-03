@@ -10,6 +10,7 @@ openSeat: false
 ratings:
   Sabato's Crystal Ball: Likely Republican (Nov. 2)
   Cook Political Report: Likely Republican (Nov. 2)
+  Inside Elections: Likely Republican (updated Oct. 29)
 candidates:
   - { name: Ashley Moody, party: R }
   - { name: Angie Nixon, party: D }
@@ -32,7 +33,7 @@ silverBulletin:
     - { dates: "Oct 19–25", pollster: "The New York Times/Siena College", sample: "813 LV", results: { Nixon: 44, Moody: 50 }, margin: R+6, influence: 1.39 }
 ---
 
-<!-- TODO: the source gave a single "Likely Republican" rating without naming forecasters; replace with Cook, Inside, Sabato and DDHQ ratings when available. -->
+<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Florida's Senate race is a special election to finish the term of Marco Rubio, who resigned in January 2025 to become Donald Trump's secretary of state. Gov. Ron DeSantis appointed Attorney General Ashley Moody to the vacancy, and she's now asking voters for the remainder of the term, through January 2029.
 
@@ -100,6 +101,7 @@ Candidate committee receipts through October 14, 2026. Nixon outraised Moody by 
 | --- | --- |
 | Sabato's Crystal Ball | Likely Republican (Nov. 2) |
 | Cook Political Report | Likely Republican (Nov. 2) |
+| Inside Elections | Likely Republican (updated Oct. 29) |
 
 270toWin's average of seven recent polls, including surveys released through November 2, has Moody at 50.4% and Nixon at 44.3%, a 6.1-point lead.
 

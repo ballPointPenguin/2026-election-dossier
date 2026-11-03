@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: D
 openSeat: true
 ratings:
-  Inside Elections: Lean Democratic (Nov. 3)
+  Inside Elections: Lean Democratic (updated Oct. 29)
   Sabato's Crystal Ball: Likely Democratic (Nov. 2)
   Cook Political Report: Lean Democratic (Nov. 2)
 candidates:
@@ -34,7 +34,7 @@ silverBulletin:
     - { dates: "Oct 27–Nov 1", pollster: "Survey 160", sample: "1,365 LV", results: { Flanagan: 52, Tafoya: 43 }, margin: D+9, influence: 1.67 }
 ---
 
-<!-- TODO: source gave "Likely Democratic" as an overall rating without naming a forecaster, plus Inside Elections at Lean Democratic; add Cook, Sabato and DDHQ when known. -->
+<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Minnesota's Senate race is an open-seat contest following Democratic Sen. Tina Smith's retirement. Minnesota hasn't voted Republican for president since 1972, but it isn't overwhelmingly Democratic: Trump lost it by only about four points in 2024, and Republicans remain competitive in the legislature and several congressional districts. The national environment and the candidates' profiles have nonetheless made Flanagan the clear favorite.
 
@@ -107,7 +107,7 @@ Candidate committee receipts through October 14, excluding outside spending. Nei
 
 | Forecaster | Rating |
 | --- | --- |
-| Inside Elections | Lean Democratic (Nov. 3) |
+| Inside Elections | Lean Democratic (updated Oct. 29) |
 | Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 | Cook Political Report | Lean Democratic (Nov. 2) |
 

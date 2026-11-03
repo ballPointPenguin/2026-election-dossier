@@ -9,7 +9,7 @@ incumbentParty: D
 openSeat: true
 ratings:
   Cook Political Report: Lean Democratic (Nov. 2)
-  Inside Elections: Tilt Democratic (Nov. 3)
+  Inside Elections: Tilt Democratic (updated Oct. 29)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Lean Democratic (Nov. 3)
 candidates:
@@ -103,7 +103,7 @@ Michigan's Senate race has drawn nearly $300 million in spending, one of the mos
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Lean Democratic (Nov. 2) |
-| Inside Elections | Tilt Democratic (Nov. 3) |
+| Inside Elections | Tilt Democratic (updated Oct. 29) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Lean Democratic (Nov. 3) |
 

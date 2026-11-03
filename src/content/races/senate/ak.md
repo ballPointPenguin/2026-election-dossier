@@ -9,7 +9,7 @@ incumbentParty: R
 openSeat: false
 ratings:
   Cook Political Report: Toss Up (Nov. 2)
-  Inside Elections: Toss Up (Nov. 3)
+  Inside Elections: Toss Up (updated Oct. 29)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Lean Democratic (Nov. 3)
 candidates:
@@ -100,7 +100,7 @@ Per third-quarter FEC filings as summarized by Ballotpedia. About a 2.6-to-1 edg
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 2) |
-| Inside Elections | Toss Up (Nov. 3) |
+| Inside Elections | Toss Up (updated Oct. 29) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Lean Democratic (Nov. 3) |
 

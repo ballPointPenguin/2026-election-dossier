@@ -2,7 +2,7 @@
 office: senate
 state: IA
 title: "Open seat, dead heat: Turek v. Hinson"
-summary: With Sen. Joni Ernst retiring, Republican Rep. Ashley Hinson faces Paralympic gold medalist and state Rep. Josh Turek (D) in an essentially tied race in a state Trump won by about 13 points; Cook and Decision Desk HQ call it a Toss Up and Sabato leans Republican.
+summary: With Sen. Joni Ernst retiring, Republican Rep. Ashley Hinson faces Paralympic gold medalist and state Rep. Josh Turek (D) in an essentially tied race in a state Trump won by about 13 points; Cook, Inside Elections and Decision Desk HQ call it a Toss Up and Sabato leans Republican.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: R
@@ -11,6 +11,7 @@ ratings:
   Cook Political Report: Toss Up (Nov. 2)
   Sabato's Crystal Ball: Lean Republican (Nov. 2)
   Decision Desk HQ: Toss Up (Nov. 3)
+  Inside Elections: Toss Up (updated Oct. 29)
 candidates:
   - { name: Ashley Hinson, party: R }
   - { name: Josh Turek, party: D }
@@ -33,7 +34,7 @@ silverBulletin:
     - { dates: "Oct 28–31", pollster: "GrayHouse", sample: "601 LV", results: { Turek: 46, Hinson: 48 }, margin: R+2, influence: 1.50 }
 ---
 
-<!-- TODO: source said Inside Elections is "slightly more favorable to Republicans" without giving a rating; add it when known. -->
+<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Iowa is one of the more surprising Senate battlegrounds of 2026. Republican Sen. Joni Ernst's retirement opened the seat for Republican Rep. Ashley Hinson and Democratic state Rep. Josh Turek, a Paralympic gold medalist. What began as a fairly safe Republican seat is now essentially tied, even though Trump carried Iowa by about 13 points in 2024.
 
@@ -97,6 +98,7 @@ Outside spending has been extraordinary: one tracker reports more than $200 mill
 | Cook Political Report | Toss Up (Nov. 2) |
 | Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 | Decision Desk HQ | Toss Up (Nov. 3) |
+| Inside Elections | Toss Up (updated Oct. 29) |
 
 270toWin's final average of five recent polls, including surveys through November 2, is a tie at 47.0% each.
 

@@ -9,7 +9,7 @@ incumbentParty: R
 openSeat: false
 ratings:
   Cook Political Report: Toss Up (Nov. 2)
-  Inside Elections: Toss Up (Nov. 3)
+  Inside Elections: Toss Up (updated Oct. 29)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
 candidates:
   - { name: Susan Collins, party: R }
@@ -88,7 +88,7 @@ Maine uses ranked-choice voting for federal elections. If nobody tops 50% of fir
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 2) |
-| Inside Elections | Toss Up (Nov. 3) |
+| Inside Elections | Toss Up (updated Oct. 29) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 
 270toWin's simple average of nine recent polls has Jackson at 50.9% and Collins at 45.9%, a 5.0-point lead. It's an average, not a forecast.

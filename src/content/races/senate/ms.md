@@ -2,13 +2,13 @@
 office: senate
 state: MS
 title: Hyde-Smith faces Scott Colom in a long-shot Deep South test
-summary: Republican Sen. Cindy Hyde-Smith seeks a second full term against Democratic district attorney Scott Colom and independent Ty Pinkins in a state Trump won by about 22 points; sparse polling shows single-digit gaps, and Inside Elections rates it Likely Republican.
+summary: Republican Sen. Cindy Hyde-Smith seeks a second full term against Democratic district attorney Scott Colom and independent Ty Pinkins in a state Trump won by about 22 points; sparse polling shows single-digit gaps, and Cook, Inside Elections and Sabato all rate it Likely Republican.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Inside Elections: Likely Republican (Nov. 3)
+  Inside Elections: Likely Republican (updated Oct. 29)
   Sabato's Crystal Ball: Likely Republican (Nov. 2)
   Cook Political Report: Likely Republican (Nov. 2)
 candidates:
@@ -32,7 +32,7 @@ silverBulletin:
     - { dates: "Apr 8–12", pollster: "Impact Research (D)", sample: "500 LV", results: { Colom: 39, Hyde-Smith: 42 }, margin: R+3, influence: 0.06 }
 ---
 
-<!-- TODO: the source headline said "Safe Republican" but cited Inside Elections at Likely Republican; used Inside's rating only. Add Cook, Sabato and DDHQ when known. -->
+<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Mississippi's underlying alignment strongly favors Republicans. Sen. Cindy Hyde-Smith is seeking a second full six-year term, and Democrats face a hard task in a state Donald Trump carried by about 22 points in 2024. But Mississippi is more complicated than its presidential results suggest: it has one of the country's largest Black electorates, regional pockets of Democratic strength, and deep socioeconomic problems that give an opening to campaigns about health care, poverty and economic development.
 
@@ -100,7 +100,7 @@ National figures have come to Mississippi: Trump to support Hyde-Smith, and Bill
 
 | Forecaster | Rating |
 | --- | --- |
-| Inside Elections | Likely Republican (Nov. 3) |
+| Inside Elections | Likely Republican (updated Oct. 29) |
 | Sabato's Crystal Ball | Likely Republican (Nov. 2) |
 | Cook Political Report | Likely Republican (Nov. 2) |
 

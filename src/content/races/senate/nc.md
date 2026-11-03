@@ -11,6 +11,7 @@ ratings:
   Cook Political Report: Likely Democratic (Nov. 2)
   RealClearPolitics: Likely Democratic (Nov. 3)
   Sabato's Crystal Ball: Likely Democratic (Nov. 2)
+  Inside Elections: Lean Democratic (updated Oct. 29)
 candidates:
   - { name: Roy Cooper, party: D }
   - { name: Michael Whatley, party: R }
@@ -34,7 +35,7 @@ silverBulletin:
     - { dates: "Oct 7–11", pollster: "SurveyUSA", sample: "643 LV", results: { Cooper: 54, Whatley: 40 }, margin: D+14, influence: 0.62 }
 ---
 
-<!-- TODO: only Cook and RealClearPolitics ratings were given; add Inside, Sabato and DDHQ when known. -->
+<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 North Carolina is arguably Democrats' most promising Senate pickup in 2026. Republican Sen. Thom Tillis is retiring, and the open seat pits former two-term Democratic Gov. Roy Cooper against former Republican National Committee chair Michael Whatley.
 
@@ -118,6 +119,7 @@ The Libertarian nominee, Shannon W. Bray, and Green nominee, Michael Dublin, are
 | Cook Political Report | Likely Democratic (Nov. 2) |
 | RealClearPolitics | Likely Democratic (Nov. 3) |
 | Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
+| Inside Elections | Lean Democratic (updated Oct. 29) |
 
 The Hill/Decision Desk HQ's polling estimate, drawn from 53 surveys and not a forecast, has Cooper at 54.1% and Whatley at 43.1%, an 11.0-point lead.
 
