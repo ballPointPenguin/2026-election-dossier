@@ -17,6 +17,22 @@ candidates:
   - { name: Chuck Conboy, party: America First }
   - { name: Mike Marvin, party: Legal Marijuana NOW }
   - { name: Robin Richards, party: Nebraska Working People }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Ricketts, party: R, pct: 68.9 }
+    - { name: Osborn, party: I, pct: 31.1 }
+  average:
+    margin: R+1.2
+    candidates:
+      - { name: Ricketts, party: R, pct: 47.7 }
+      - { name: Osborn, party: I, pct: 46.5 }
+  polls:
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "1,974 LV", results: { Ricketts: 49, Osborn: 49 }, margin: R+0, influence: 1.85 }
+    - { dates: "Oct 23–29", pollster: "The New York Times/Siena College", sample: "809 LV", results: { Ricketts: 49, Osborn: 43 }, margin: R+6, influence: 1.84 }
+    - { dates: "Oct 29–Nov 1", pollster: "GrayHouse", sample: "534 LV", results: { Ricketts: 50, Osborn: 46 }, margin: R+4, influence: 1.51 }
+    - { dates: "Oct 16–23", pollster: "Echelon Insights", sample: "407 LV", results: { Ricketts: 47, Osborn: 46 }, margin: R+1, influence: 0.93 }
 ---
 
 <!-- TODO: Inside Elections rating not given in the source; add when known. -->
@@ -95,11 +111,13 @@ DDHQ/The Hill's polling estimate, drawn from 21 surveys and not an election fore
 
 | Pollster | Dates | Osborn (I) | Ricketts (R) | Margin |
 | --- | --- | --- | --- | --- |
-| GrayHouse | Nov. 2 | 46% | 50% | R+4 |
-| YouGov | Nov. 1 | 49% | 49% | Tie |
-| NYT/Siena | Oct. 31 | 41% | 46% | R+5 |
-| Echelon | Oct. 27 | 46% | 47% | R+1 |
+| GrayHouse | Oct. 29–Nov. 1 | 46% | 50% | R+4 |
+| YouGov | Oct. 26–29 | 49% | 49% | Tie |
+| NYT/Siena | Oct. 23–29 | 43% | 49% | R+6 |
+| Echelon | Oct. 16–23 | 46% | 47% | R+1 |
 | GBAO | Oct. 22 | 46% | 45% | I+1 |
+
+<!-- TODO: the source had NYT/Siena at Osborn 41, Ricketts 46 (Oct. 31); FLIPR lists Osborn 43, Ricketts 49 (Oct. 23–29). Used FLIPR's; confirm. -->
 
 Forecasters differ on how much weight to give Nebraska's Republican lean: a November 3 simulation model calls it a Toss Up with Ricketts at about a 55% chance. Ricketts is a modest favorite and Osborn has a realistic path. A two-point Republican margin is remarkably narrow in a state Trump carried by about 20.
 
