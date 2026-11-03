@@ -15,6 +15,22 @@ candidates:
   - { name: Michele Tafoya, party: R }
   - { name: Rebecca Whiting, party: L }
   - { name: Marisa Simonetti, party: I }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Flanagan, party: D, pct: 92.1 }
+    - { name: Tafoya, party: R, pct: 7.9 }
+  average:
+    margin: D+6.0
+    candidates:
+      - { name: Flanagan, party: D, pct: 49.5 }
+      - { name: Tafoya, party: R, pct: 43.5 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "2,133 LV", results: { Flanagan: 48, Tafoya: 46 }, margin: D+2, influence: 3.09 }
+    - { dates: "Oct 29–30", pollster: "InsiderAdvantage", sample: "1,200 LV", results: { Flanagan: 49, Tafoya: 46 }, margin: D+3, influence: 1.98 }
+    - { dates: "Oct 30–Nov 1", pollster: "Research Co.", sample: "450 LV", results: { Flanagan: 48, Tafoya: 43 }, margin: D+5, influence: 1.67 }
+    - { dates: "Oct 27–Nov 1", pollster: "Survey 160", sample: "1,365 LV", results: { Flanagan: 52, Tafoya: 43 }, margin: D+9, influence: 1.67 }
 ---
 
 <!-- TODO: source gave "Likely Democratic" as an overall rating without naming a forecaster, plus Inside Elections at Lean Democratic; add Cook, Sabato and DDHQ when known. -->
@@ -97,11 +113,15 @@ Candidate committee receipts through October 14, excluding outside spending. Nei
 
 | Pollster | Dates | Flanagan (D) | Tafoya (R) | Margin |
 | --- | --- | --- | --- | --- |
-| Research Co. | Nov. 1 | 52% | 47% | D+5 |
-| InsiderAdvantage | Nov. 1 | 49% | 46% | D+3 |
+| AtlasIntel | Oct. 28–Nov. 1 | 48% | 46% | D+2 |
+| Survey 160 | Oct. 27–Nov. 1 | 52% | 43% | D+9 |
+| Research Co. | Oct. 30–Nov. 1 | 48% | 43% | D+5 |
+| InsiderAdvantage | Oct. 29–30 | 49% | 46% | D+3 |
 | NYT/Siena | Oct. 28 | 54% | 40% | D+14 |
 | Trafalgar | Oct. 17 | 48% | 45% | D+3 |
 | SurveyUSA | Oct. 14 | 45% | 42% | D+3 |
+
+<!-- TODO: the source had Research Co. at 52–47 (Nov. 1); FLIPR lists it as 48–43 (Oct. 30–Nov. 1). Used FLIPR's numbers; confirm. -->
 
 The Siena poll's 14 points is far more Democratic than the rest. A separate aggregation that includes an AtlasIntel poll showing Flanagan up two puts her average lead at 3.6 points. Likely Democratic is a defensible overall rating, but this shouldn't be treated as a guaranteed hold, and Inside Elections' Lean Democratic reflects the added caution.
 
