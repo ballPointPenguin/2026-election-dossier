@@ -19,7 +19,9 @@ export const raceUrl = (race: Race) => url(`${race.data.office}/${slugOf(race)}/
 export const raceLabel = (race: Race) =>
   race.data.office === 'house'
     ? `${race.data.state}-${race.data.district ?? 'AL'}`
-    : race.data.state;
+    : race.data.office === 'senate'
+      ? `${race.data.state} Senate`
+      : `${race.data.state} Governor`;
 
 export async function getRaces(office?: Office): Promise<Race[]> {
   const all = await getCollection('races', ({ data }) => !data.draft);
