@@ -14,6 +14,22 @@ ratings:
 candidates:
   - { name: Rob Sand, party: D }
   - { name: Zach Lahn, party: R }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Sand, party: D, pct: 94.3 }
+    - { name: Lahn, party: R, pct: 5.7 }
+  average:
+    margin: D+7.8
+    candidates:
+      - { name: Sand, party: D, pct: 52.2 }
+      - { name: Lahn, party: R, pct: 44.4 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,219 LV", results: { Sand: 54, Lahn: 44 }, margin: D+10, influence: 2.70 }
+    - { dates: "Oct 26–Nov 1", pollster: "The New York Times/Siena College", sample: "705 LV", results: { Sand: 51, Lahn: 43 }, margin: D+8, influence: 2.13 }
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "2,019 LV", results: { Sand: 53, Lahn: 46 }, margin: D+7, influence: 1.74 }
+    - { dates: "Oct 27–31", pollster: "Rasmussen Reports (R)", sample: "901 LV", results: { Sand: 50, Lahn: 45 }, margin: D+5, influence: 1.48 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
@@ -88,8 +104,10 @@ The major handicappers have shifted substantially toward Democrats over the camp
 
 | Pollster | Dates | Sand (D) | Lahn (R) | Margin |
 | --- | --- | --- | --- | --- |
+| AtlasIntel | Oct. 28–Nov. 1 | 54% | 44% | D+10 |
+| Rasmussen Reports (R) | Oct. 27–31 | 50% | 45% | D+5 |
 | Siena/NYT | Oct. 26–Nov. 1 | 51% | 43% | D+8 |
-| YouGov | Nov. 1 | 53% | 46% | D+7 |
+| YouGov | Oct. 26–29 | 53% | 46% | D+7 |
 | Echelon | Oct. 16–23 | 50% | 46% | D+4 |
 | New River/GSG | Oct. 21 | 54% | 43% | D+11 |
 | Marist | Oct. 8–11 | 52% | 45% | D+7 |
