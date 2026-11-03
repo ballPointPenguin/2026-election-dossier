@@ -1,7 +1,7 @@
 ---
 office: senate
 state: IA
-title: Open seat, dead heat: Turek v. Hinson
+title: "Open seat, dead heat: Turek v. Hinson"
 summary: With Sen. Joni Ernst retiring, Republican Rep. Ashley Hinson faces Paralympic gold medalist and state Rep. Josh Turek (D) in an essentially tied race in a state Trump won by about 13 points; three forecasters call it a Toss Up.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
