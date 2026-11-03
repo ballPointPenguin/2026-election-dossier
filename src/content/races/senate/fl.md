@@ -13,6 +13,22 @@ candidates:
   - { name: Ashley Moody, party: R }
   - { name: Angie Nixon, party: D }
   - { name: Neil Gillespie, party: I }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Moody, party: R, pct: 84.2 }
+    - { name: Nixon, party: D, pct: 15.8 }
+  average:
+    margin: R+6.1
+    candidates:
+      - { name: Nixon, party: D, pct: 43.5 }
+      - { name: Moody, party: R, pct: 49.6 }
+  polls:
+    - { dates: "Oct 31–Nov 2", pollster: "Research Co.", sample: "450 LV", results: { Nixon: 44, Moody: 51 }, margin: R+7, influence: 1.74 }
+    - { dates: "Oct 28–29", pollster: "InsiderAdvantage", sample: "1,200 LV", results: { Nixon: 43, Moody: 49 }, margin: R+6, influence: 1.87 }
+    - { dates: "Oct 26–29", pollster: "Targoz Market Research", sample: "1,013 LV", results: { Nixon: 43, Moody: 52 }, margin: R+9, influence: 1.30 }
+    - { dates: "Oct 19–25", pollster: "The New York Times/Siena College", sample: "813 LV", results: { Nixon: 44, Moody: 50 }, margin: R+6, influence: 1.39 }
 ---
 
 <!-- TODO: the source gave a single "Likely Republican" rating without naming forecasters; replace with Cook, Inside, Sabato and DDHQ ratings when available. -->
@@ -87,10 +103,11 @@ Candidate committee receipts through October 14, 2026. Nixon outraised Moody by 
 
 | Pollster | Dates | Moody (R) | Nixon (D) | Margin |
 | --- | --- | --- | --- | --- |
-| Targoz | Nov. 2 | 52% | 43% | R+9 |
+| Research Co. | Oct. 31–Nov. 2 | 51% | 44% | R+7 |
+| Targoz | Oct. 26–29 | 52% | 43% | R+9 |
 | Stetson | Oct. 31 | 49% | 45% | R+4 |
-| InsiderAdvantage | Oct. 30 | 49% | 43% | R+6 |
-| Siena | Oct. 28 | 50% | 44% | R+6 |
+| InsiderAdvantage | Oct. 28–29 | 49% | 43% | R+6 |
+| Siena | Oct. 19–25 | 50% | 44% | R+6 |
 
 A Democratic-sponsored RedBox Research poll released November 2 had Moody up only 47–45, notably tighter than the rest. A polling-based forecast updated November 2 projects Moody winning by about 5.7 points with an 82% chance, one model's estimate, not a consensus probability.
 
