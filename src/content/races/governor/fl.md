@@ -16,6 +16,22 @@ candidates:
   - { name: David Jolly, party: D }
   - { name: Scott Jewett, party: L }
   - { name: Frank Russo, party: I }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Donalds, party: R, pct: 78.0 }
+    - { name: Jolly, party: D, pct: 22.0 }
+  average:
+    margin: R+4.1
+    candidates:
+      - { name: Jolly, party: D, pct: 44.4 }
+      - { name: Donalds, party: R, pct: 48.5 }
+  polls:
+    - { dates: "Oct 28–29", pollster: "InsiderAdvantage", sample: "1,200 LV", results: { Jolly: 45, Donalds: 49 }, margin: R+4, influence: 1.97 }
+    - { dates: "Oct 31–Nov 2", pollster: "Research Co.", sample: "450 LV", results: { Jolly: 44, Donalds: 48 }, margin: R+4, influence: 1.76 }
+    - { dates: "Oct 19–25", pollster: "The New York Times/Siena College", sample: "813 LV", results: { Jolly: 44, Donalds: 48 }, margin: R+4, influence: 1.40 }
+    - { dates: "Oct 26–29", pollster: "Targoz Market Research", sample: "1,014 LV", results: { Jolly: 43, Donalds: 50 }, margin: R+7, influence: 1.30 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
@@ -83,8 +99,11 @@ The race began the cycle rated Solid or Safe Republican by some analysts and has
 
 | Pollster | Dates | Donalds (R) | Jolly (D) | Margin |
 | --- | --- | --- | --- | --- |
+| Research Co. | Oct. 31–Nov. 2 | 48% | 44% | R+4 |
 | RedBox | Oct. 30–31 | 47% | 46% | R+1 |
+| InsiderAdvantage | Oct. 28–29 | 49% | 45% | R+4 |
 | Stetson | Oct. 26–30 | 51% | 45% | R+6 |
+| Targoz Market Research | Oct. 26–29 | 50% | 43% | R+7 |
 | St. Pete Polls | Oct. 25–27 | 47.8% | 45.5% | R+2.3 |
 | Siena/NYT | Oct. 19–25 | 48% | 44% | R+4 |
 | Echelon | Oct. 16–23 | 50% | 44% | R+6 |
