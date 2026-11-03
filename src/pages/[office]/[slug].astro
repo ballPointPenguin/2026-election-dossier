@@ -25,13 +25,11 @@ const all = await getRaces();
 const related = race.data.related
   .map((slug) => all.find((r) => slugOf(r) === slug)!)
   .sort((a, b) => raceLabel(a).localeCompare(raceLabel(b)));
-// Other races in the same state that aren't already listed as related. Governor races are kept
-// apart: they list only other governor races, and other races don't list governors.
+// Other races in the same state that aren't already listed as related.
 const sameState = all
   .filter(
     (r) =>
       r.data.state === race.data.state &&
-      (r.data.office === 'governor') === (race.data.office === 'governor') &&
       r.id !== race.id &&
       !race.data.related.includes(slugOf(r)),
   )
