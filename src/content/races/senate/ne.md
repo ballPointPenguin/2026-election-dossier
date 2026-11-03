@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Cook Political Report: Lean Republican (Nov. 3)
+  Cook Political Report: Lean Republican (Nov. 2)
   Sabato's Crystal Ball: Lean Republican (Nov. 2)
   Decision Desk HQ: Lean Republican (Nov. 3)
 candidates:
@@ -103,7 +103,7 @@ An Osborn win would be one of the most unusual outcomes of 2026 and a test of wh
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Lean Republican (Nov. 3) |
+| Cook Political Report | Lean Republican (Nov. 2) |
 | Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 | Decision Desk HQ | Lean Republican (Nov. 3) |
 

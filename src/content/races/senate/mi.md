@@ -2,13 +2,13 @@
 office: senate
 state: MI
 title: El-Sayed v. Rogers for Gary Peters's open seat
-summary: With Sen. Gary Peters retiring, progressive Democrat Abdul El-Sayed faces Republican Mike Rogers in a state Trump narrowly won; El-Sayed leads the late polls by roughly five to eleven points, though Cook still calls it a Toss Up and Haley Stevens endorsed Rogers.
+summary: With Sen. Gary Peters retiring, progressive Democrat Abdul El-Sayed faces Republican Mike Rogers in a state Trump narrowly won; El-Sayed leads the late polls by roughly five to eleven points, and all four forecasters lean Democratic, though Haley Stevens endorsed Rogers.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: D
 openSeat: true
 ratings:
-  Cook Political Report: Toss Up (Nov. 3)
+  Cook Political Report: Lean Democratic (Nov. 2)
   Inside Elections: Tilt Democratic (Nov. 3)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Lean Democratic (Nov. 3)
@@ -102,7 +102,7 @@ Michigan's Senate race has drawn nearly $300 million in spending, one of the mos
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Toss Up (Nov. 3) |
+| Cook Political Report | Lean Democratic (Nov. 2) |
 | Inside Elections | Tilt Democratic (Nov. 3) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Lean Democratic (Nov. 3) |

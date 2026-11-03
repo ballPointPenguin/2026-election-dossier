@@ -9,6 +9,7 @@ incumbentParty: R
 openSeat: false
 ratings:
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
+  Cook Political Report: Toss Up (Nov. 2)
 candidates:
   - { name: Roger Marshall, party: R }
   - { name: Adam Hamilton, party: D }
@@ -98,6 +99,7 @@ Candidate committee receipts through October 14; outside spending excluded. Repu
 | Forecaster | Rating |
 | --- | --- |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
+| Cook Political Report | Toss Up (Nov. 2) |
 
 RealClearPolling's average of recent polls had Hamilton ahead 49.8% to 46.2%, a 3.6-point lead, as of November 2.
 

@@ -10,6 +10,7 @@ openSeat: false
 ratings:
   Inside Elections: Likely Republican (Nov. 3)
   Sabato's Crystal Ball: Likely Republican (Nov. 2)
+  Cook Political Report: Likely Republican (Nov. 2)
 candidates:
   - { name: Cindy Hyde-Smith, party: R }
   - { name: Scott Colom, party: D }
@@ -101,6 +102,7 @@ National figures have come to Mississippi: Trump to support Hyde-Smith, and Bill
 | --- | --- |
 | Inside Elections | Likely Republican (Nov. 3) |
 | Sabato's Crystal Ball | Likely Republican (Nov. 2) |
+| Cook Political Report | Likely Republican (Nov. 2) |
 
 | Poll | Dates | Hyde-Smith (R) | Colom (D) | Pinkins (I) |
 | --- | --- | --- | --- | --- |

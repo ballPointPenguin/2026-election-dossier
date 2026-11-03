@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Cook Political Report: Toss Up (Nov. 3)
+  Cook Political Report: Toss Up (Nov. 2)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Toss Up (Nov. 3)
 candidates:
@@ -102,7 +102,7 @@ Reported advertising spending and reservations through late October top $500 mil
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Toss Up (Nov. 3) |
+| Cook Political Report | Toss Up (Nov. 2) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Toss Up (Nov. 3) |
 

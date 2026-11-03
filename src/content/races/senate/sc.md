@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Cook Political Report: Lean Republican (Nov. 3)
+  Cook Political Report: Lean Republican (Nov. 2)
   Inside Elections: Tilt Republican (Nov. 3)
   Sabato's Crystal Ball: Lean Republican (Nov. 2)
 candidates:
@@ -96,7 +96,7 @@ South Carolina also elects a governor, with Republican Attorney General Alan Wil
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Lean Republican (Nov. 3) |
+| Cook Political Report | Lean Republican (Nov. 2) |
 | Inside Elections | Tilt Republican (Nov. 3) |
 | Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 

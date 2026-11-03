@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Cook Political Report: Toss Up (Nov. 3)
+  Cook Political Report: Toss Up (Nov. 2)
   Inside Elections: Toss Up (Nov. 3)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Lean Democratic (Nov. 3)
@@ -99,7 +99,7 @@ Per third-quarter FEC filings as summarized by Ballotpedia. About a 2.6-to-1 edg
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Toss Up (Nov. 3) |
+| Cook Political Report | Toss Up (Nov. 2) |
 | Inside Elections | Toss Up (Nov. 3) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Lean Democratic (Nov. 3) |

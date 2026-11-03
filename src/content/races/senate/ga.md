@@ -10,6 +10,7 @@ openSeat: false
 ratings:
   RealClearPolitics: Likely Democratic (Nov. 3)
   Sabato's Crystal Ball: Likely Democratic (Nov. 2)
+  Cook Political Report: Likely Democratic (Nov. 2)
 candidates:
   - { name: Jon Ossoff, party: D }
   - { name: Mike Collins, party: R }
@@ -88,6 +89,7 @@ A candidate needs more than 50% to win outright. If nobody gets there, the top t
 | --- | --- |
 | RealClearPolitics | Likely Democratic (Nov. 3) |
 | Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
+| Cook Political Report | Likely Democratic (Nov. 2) |
 
 RealClearPolling's final average of seven recent polls has Ossoff at 51.9% and Collins at 43.3%, an 8.6-point lead.
 

@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Cook Political Report: Toss Up (Nov. 3)
+  Cook Political Report: Toss Up (Nov. 2)
   Inside Elections: Toss Up (Nov. 3)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
 candidates:
@@ -87,7 +87,7 @@ Maine uses ranked-choice voting for federal elections. If nobody tops 50% of fir
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Toss Up (Nov. 3) |
+| Cook Political Report | Toss Up (Nov. 2) |
 | Inside Elections | Toss Up (Nov. 3) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 

@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: true
 ratings:
-  Cook Political Report: Likely Democratic (Nov. 3; moved Oct. 6)
+  Cook Political Report: Likely Democratic (Nov. 2)
   RealClearPolitics: Likely Democratic (Nov. 3)
   Sabato's Crystal Ball: Likely Democratic (Nov. 2)
 candidates:
@@ -115,7 +115,7 @@ The Libertarian nominee, Shannon W. Bray, and Green nominee, Michael Dublin, are
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Likely Democratic (Nov. 3; moved Oct. 6) |
+| Cook Political Report | Likely Democratic (Nov. 2) |
 | RealClearPolitics | Likely Democratic (Nov. 3) |
 | Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 

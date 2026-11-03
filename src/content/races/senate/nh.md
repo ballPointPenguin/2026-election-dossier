@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: D
 openSeat: true
 ratings:
-  Cook Political Report: Lean Democratic (Nov. 3)
+  Cook Political Report: Lean Democratic (Nov. 2)
   Inside Elections: Tilt Democratic (Nov. 3)
   Sabato's Crystal Ball: Likely Democratic (Nov. 2)
   Decision Desk HQ: Likely Democratic (Nov. 3)
@@ -106,7 +106,7 @@ Candidate committee receipts through October 14, 2026. Outside spending helped c
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Lean Democratic (Nov. 3) |
+| Cook Political Report | Lean Democratic (Nov. 2) |
 | Inside Elections | Tilt Democratic (Nov. 3) |
 | Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 | Decision Desk HQ | Likely Democratic (Nov. 3) |

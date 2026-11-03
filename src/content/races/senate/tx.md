@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: true
 ratings:
-  Cook Political Report: Toss Up (Nov. 3)
+  Cook Political Report: Toss Up (Nov. 2)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Inside Elections: Tilt Democratic (Nov. 3)
 candidates:
@@ -108,7 +108,7 @@ That gives Talarico a rhetorical argument about billionaire influence, though De
 
 | Forecaster | Rating |
 | --- | --- |
-| Cook Political Report | Toss Up (Nov. 3) |
+| Cook Political Report | Toss Up (Nov. 2) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Inside Elections | Tilt Democratic (Nov. 3) |
 
