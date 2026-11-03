@@ -15,6 +15,22 @@ candidates:
   - { name: Greg Abbott, party: R }
   - { name: Gina Hinojosa, party: D }
   - { name: Pat Dixon, party: L }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Abbott, party: R, pct: 66.4 }
+    - { name: Hinojosa, party: D, pct: 33.6 }
+  average:
+    margin: R+1.6
+    candidates:
+      - { name: Hinojosa, party: D, pct: 47.6 }
+      - { name: Abbott, party: R, pct: 49.2 }
+  polls:
+    - { dates: "Oct 27–Nov 1", pollster: "The New York Times/Siena College", sample: "1,215 LV", results: { Hinojosa: 48, Abbott: 47 }, margin: D+2, influence: 2.51 }
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,678 A", results: { Hinojosa: 49, Abbott: 48 }, margin: D+2, influence: 2.01 }
+    - { dates: "Oct 31–Nov 1", pollster: "Emerson College", sample: "500 LV", results: { Hinojosa: 49, Abbott: 50 }, margin: R+1, influence: 1.84 }
+    - { dates: "Oct 31–Nov 2", pollster: "Research Co.", sample: "450 LV", results: { Hinojosa: 44, Abbott: 46 }, margin: R+2, influence: 1.70 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
@@ -85,12 +101,16 @@ The handicappers have repeatedly revised their assessments. A November 1 average
 | Pollster | Dates | Abbott (R) | Hinojosa (D) | Margin |
 | --- | --- | --- | --- | --- |
 | NYT/Siena | Oct. 27–Nov. 1 | 47% | 48% | D+1 |
+| Research Co. | Oct. 31–Nov. 2 | 46% | 44% | R+2 |
 | AtlasIntel | Oct. 28–Nov. 1 | 49% | 50% | D+1 |
+| Emerson | Oct. 31–Nov. 1 | 50% | 49% | R+1 |
 | YouGov | Oct. 26–29 | 50% | 49% | R+1 |
 | CNN/SSRS | Oct. 20–27 | 48% | 46% | R+2 |
 | Texas Southern | Oct. 21–25 | 50% | 47% | R+3 |
 | Emerson | Oct. 17–19 | 49% | 45% | R+4 |
 | Fox News | Oct. 15–19 | 52% | 47% | R+5 |
+
+<!-- TODO: FLIPR lists Emerson as Oct. 31–Nov. 1 at 50–49; the source had an Oct. 17–19 Emerson poll at 49–45. Possibly a newer Emerson poll; both are kept. -->
 
 The last two major polls both have Hinojosa narrowly ahead, though neither lead is statistically decisive. The polling margin isn't the same as the probability of winning: Abbott's two-point average edge, Texas's Republican lean and his resources still make him the favorite. For context, Abbott won in 2022 by nearly 11 points over Beto O'Rourke, so a two-point win would be a substantial deterioration in Republican statewide performance.
 
