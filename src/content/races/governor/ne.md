@@ -16,6 +16,22 @@ candidates:
   - { name: Lynne Walz, party: D }
   - { name: Brett Lindstrom, party: America First }
   - { name: Rick Beard, party: Legal Marijuana NOW }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Pillen, party: R, pct: 87.7 }
+    - { name: Walz, party: D, pct: 12.3 }
+  average:
+    margin: R+5.5
+    candidates:
+      - { name: Walz, party: D, pct: 41.6 }
+      - { name: Pillen, party: R, pct: 47.1 }
+  polls:
+    - { dates: "Oct 23–29", pollster: "The New York Times/Siena College", sample: "809 LV", results: { Walz: 40, Pillen: 53 }, margin: R+14, influence: 2.11 }
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "1,974 LV", results: { Walz: 47, Pillen: 50 }, margin: R+3, influence: 2.10 }
+    - { dates: "Oct 16–23", pollster: "Echelon Insights", sample: "407 LV", results: { Walz: 40, Pillen: 47 }, margin: R+7, influence: 1.09 }
+    - { dates: "Oct 15–18", pollster: "Concord Public Opinion Partners (D)", sample: "500 LV", results: { Walz: 43, Pillen: 40 }, margin: D+3, influence: 0.96 }
 ---
 
 <!-- TODO: the source said the handicappers "unanimously" rate the race Likely Republican and its table lists Cook as Likely Republican, but a later passage says Cook moved it to Lean Republican on Oct. 27. Used the later, more specific claim; verify Cook. DDHQ rating not given. -->
