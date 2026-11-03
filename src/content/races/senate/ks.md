@@ -13,6 +13,22 @@ candidates:
   - { name: Roger Marshall, party: R }
   - { name: Adam Hamilton, party: D }
   - { name: David Graham, party: L }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Hamilton, party: D, pct: 71.9 }
+    - { name: Marshall, party: R, pct: 28.1 }
+  average:
+    margin: D+4.0
+    candidates:
+      - { name: Hamilton, party: D, pct: 49.9 }
+      - { name: Marshall, party: R, pct: 45.8 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "2,038 LV", results: { Hamilton: 52, Marshall: 45 }, margin: D+7, influence: 3.20 }
+    - { dates: "Oct 27–Nov 1", pollster: "The New York Times/Siena College", sample: "736 LV", results: { Hamilton: 49, Marshall: 44 }, margin: D+5, influence: 2.33 }
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "2,086 LV", results: { Hamilton: 50, Marshall: 49 }, margin: D+1, influence: 1.93 }
+    - { dates: "Oct 26–28", pollster: "Emerson College", sample: "800 LV", results: { Hamilton: 50, Marshall: 47 }, margin: D+2, influence: 1.89 }
 ---
 
 <!-- TODO: the source gave no named forecaster ratings, only that "several forecasting organizations" moved Kansas to Toss Up (DDHQ gives Hamilton 51%, another model 69%); replace with Cook, Inside, Sabato and DDHQ ratings when available. -->
@@ -87,9 +103,10 @@ RealClearPolling's average of recent polls had Hamilton ahead 49.8% to 46.2%, a 
 
 | Pollster | Dates | Hamilton (D) | Marshall (R) | Margin |
 | --- | --- | --- | --- | --- |
-| NYT/Siena | Nov. 1 | 49% | 44% | D+5 |
-| YouGov | Oct. 29 | 50% | 49% | D+1 |
-| Emerson | Oct. 28 | 50% | 47% | D+3 |
+| AtlasIntel | Oct. 28–Nov. 1 | 52% | 45% | D+7 |
+| NYT/Siena | Oct. 27–Nov. 1 | 49% | 44% | D+5 |
+| YouGov | Oct. 26–29 | 50% | 49% | D+1 |
+| Emerson | Oct. 26–28 | 50% | 47% | D+3 |
 | CNN/SSRS | Oct. 26 | 49% | 45% | D+4 |
 
 Hamilton leads most recent polls, so this is no longer a speculative pickup. Forecasts are split: Decision Desk HQ gives him a 51% chance, another polling model 69%, which shows how sensitive the outcome is to assumptions about Kansas's underlying Republican lean. He has a modest polling edge, but a Marshall win is entirely plausible.
