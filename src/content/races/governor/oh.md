@@ -15,6 +15,22 @@ candidates:
   - { name: Amy Acton, party: D }
   - { name: Vivek Ramaswamy, party: R }
   - { name: Don Kissick, party: L }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Acton, party: D, pct: 83.5 }
+    - { name: Ramaswamy, party: R, pct: 16.5 }
+  average:
+    margin: D+4.4
+    candidates:
+      - { name: Acton, party: D, pct: 49.3 }
+      - { name: Ramaswamy, party: R, pct: 44.8 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,801 LV", results: { Acton: 52, Ramaswamy: 44 }, margin: D+8, influence: 2.82 }
+    - { dates: "Oct 31–Nov 1", pollster: "Emerson College", sample: "930 LV", results: { Acton: 48, Ramaswamy: 48 }, margin: D+0, influence: 2.59 }
+    - { dates: "Oct 29–30", pollster: "InsiderAdvantage", sample: "1,200 LV", results: { Acton: 49, Ramaswamy: 46 }, margin: D+3, influence: 2.06 }
+    - { dates: "Oct 26–Nov 1", pollster: "The New York Times/Siena College", sample: "717 LV", results: { Acton: 49, Ramaswamy: 43 }, margin: D+6, influence: 1.98 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
