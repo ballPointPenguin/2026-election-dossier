@@ -12,6 +12,22 @@ ratings:
 candidates:
   - { name: David Crowley, party: D }
   - { name: Tom Tiffany, party: R }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Crowley, party: D, pct: 80.9 }
+    - { name: Tiffany, party: R, pct: 19.1 }
+  average:
+    margin: D+5.5
+    candidates:
+      - { name: Crowley, party: D, pct: 50.6 }
+      - { name: Tiffany, party: R, pct: 45.1 }
+  polls:
+    - { dates: "Oct 30–Nov 1", pollster: "Research Co.", sample: "450 LV", results: { Crowley: 50, Tiffany: 45 }, margin: D+5, influence: 1.68 }
+    - { dates: "Oct 14–22", pollster: "Marquette University Law School", sample: "668 LV", results: { Crowley: 53, Tiffany: 46 }, margin: D+7, influence: 1.06 }
+    - { dates: "Oct 19–23", pollster: "Wick (R)", sample: "1,213 LV", results: { Crowley: 48, Tiffany: 45 }, margin: D+3, influence: 0.84 }
+    - { dates: "Sep 22–Oct 9", pollster: "YouGov", sample: "1,715 RV", results: { Crowley: 46, Tiffany: 42 }, margin: D+4, influence: 0.27 }
 ---
 
 <!-- TODO: the source gave a single "Lean Democratic" rating without naming forecasters; replace with Cook, Inside, Sabato and DDHQ when available. -->
@@ -96,7 +112,9 @@ The final Marquette Law School Poll (Oct. 14–22) had Crowley at 51%, Tiffany a
 | September | 49% | 46% | D+3 |
 | October | 51% | 44% | D+7 |
 
-Other recent polls also favor Crowley: a late-October Wick poll had him up about three points and a November 1 Research Co. poll showed a six-point lead. Recent polling averages put his lead at roughly 4.5 to 5.5 points depending on methodology. The lead is real but not insurmountable: Wisconsin polling has sometimes underestimated Republican performance, and the state's electoral history is exceptionally close. What matters is that Crowley has led consistently, not on one favorable survey.
+<!-- TODO: FLIPR lists Marquette (Oct. 14–22) as Crowley 53, Tiffany 46 (two-way), against the 51–44 with 4% undecided in the source; Research Co. as 50–45 (source said a six-point lead). Likely different cuts; confirm. -->
+
+Other recent polls also favor Crowley: a late-October Wick poll (Republican-sponsored) had him up about three points and a November 1 Research Co. poll showed a lead of five to six points. FLIPR also lists a YouGov poll (Sep. 22–Oct. 9, 1,715 registered voters) at Crowley 46, Tiffany 42. Recent polling averages put his lead at roughly 4.5 to 5.5 points depending on methodology. The lead is real but not insurmountable: Wisconsin polling has sometimes underestimated Republican performance, and the state's electoral history is exceptionally close. What matters is that Crowley has led consistently, not on one favorable survey.
 
 ## Possible results
 
