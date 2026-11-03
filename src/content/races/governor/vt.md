@@ -15,6 +15,22 @@ candidates:
   - { name: Brian Judd, party: I }
   - { name: June Goodband, party: Green Mountain Peace and Justice }
   - { name: Dean Roy, party: Freedom and Unity }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Scott, party: R, pct: 56.1 }
+    - { name: Janoo, party: D, pct: 43.9 }
+  average:
+    margin: D+1.1
+    candidates:
+      - { name: Janoo, party: D, pct: 47.0 }
+      - { name: Scott, party: R, pct: 45.9 }
+  polls:
+    - { dates: "Oct 27–31", pollster: "University of New Hampshire", sample: "1,164 LV", results: { Janoo: 51, Scott: 43 }, margin: D+8, influence: 1.67 }
+    - { dates: "Oct 23–25", pollster: "State Navigate", sample: "1,752 LV", results: { Janoo: 46, Scott: 49 }, margin: R+3, influence: 1.38 }
+    - { dates: "Sep 10–21", pollster: "Braun Research", sample: "732 LV", results: { Janoo: 34, Scott: 44 }, margin: R+9, influence: 0.14 }
+    - { dates: "Oct 2–4", pollster: "State Navigate", sample: "948 LV", results: { Janoo: 43, Scott: 46 }, margin: R+3, influence: 0.12 }
 ---
 
 <!-- TODO: the source gave a single "Likely Republican" rating without naming forecasters, and said only that Sabato "recently moved the contest toward greater competitiveness" with no label; replace with Cook, Inside, Sabato and DDHQ when available. -->
@@ -96,8 +112,11 @@ State Navigate's October 23–25 survey of 1,752 likely voters had Scott at 49%,
 | --- | --- | --- | --- | --- |
 | State Navigate | Oct. 23–25 | 49% | 46% | R+3 |
 | State Navigate | Oct. 2–4 | 46% | 43% | R+3 |
+| UNH | Oct. 27–31 | 43% | 51% | D+8 |
 | UNH | Sept. 17–21 | 43% | 49% | D+6 |
 | Braun Research / Vermont Public | Sept. 10–21 | 44% | 34% | R+10 |
+
+FLIPR also lists a newer UNH poll (Oct. 27–31, 1,164 likely voters) with Janoo ahead 51–43, an even larger lead than the September UNH result.
 
 A major complication: polls have systematically underestimated Scott. VTDigger's October analysis found that since 2016 his eventual vote share has averaged about 14 points higher than his pre-election polling. That doesn't mean he'll outperform by 14 points this time, only that Vermont polling has struggled to measure his crossover support. Forecasts consequently stay friendlier to Scott than the raw polls imply: Decision Desk HQ's October 30 forecast gave him a 93% chance with a projected margin around 20 points, though Sabato's Crystal Ball recently moved the contest toward greater competitiveness.
 
