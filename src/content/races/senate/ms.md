@@ -13,6 +13,21 @@ candidates:
   - { name: Cindy Hyde-Smith, party: R }
   - { name: Scott Colom, party: D }
   - { name: Ty Pinkins, party: I }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Hyde-Smith, party: R, pct: 95.9 }
+    - { name: Colom, party: D, pct: 4.1 }
+  average:
+    margin: R+6.5
+    candidates:
+      - { name: Colom, party: D, pct: 39.2 }
+      - { name: Hyde-Smith, party: R, pct: 45.7 }
+  polls:
+    - { dates: "Oct 21–22", pollster: "Change Research (D)", sample: "842 LV", results: { Colom: 40, Hyde-Smith: 43 }, margin: R+3, influence: 0.95 }
+    - { dates: "Aug 5–15", pollster: "Data for Progress (D)", sample: "1,018 LV", results: { Colom: 40, Hyde-Smith: 46 }, margin: R+6, influence: 0.13 }
+    - { dates: "Apr 8–12", pollster: "Impact Research (D)", sample: "500 LV", results: { Colom: 39, Hyde-Smith: 42 }, margin: R+3, influence: 0.06 }
 ---
 
 <!-- TODO: the source headline said "Safe Republican" but cited Inside Elections at Likely Republican; used Inside's rating only. Add Cook, Sabato and DDHQ when known. -->
@@ -90,6 +105,8 @@ National figures have come to Mississippi: Trump to support Hyde-Smith, and Bill
 | Change Research | Oct. 21–22 | 43% | 40% | 6% |
 | Data for Progress | Aug. 5–15 | 44% | 38% | 7% |
 | Impact Research | Apr. 8–12 | 42% | 39% | 6% |
+
+<!-- NOTE: FLIPR lists the Data for Progress poll as Hyde-Smith 46, Colom 40 (no Pinkins), versus this three-way 44–38–7; likely a two-way cut. -->
 
 The Change Research poll surveyed 842 likely voters (±3.5 points) for Government That Works PAC, with 9% unsure and 2% saying they wouldn't vote. A polling-based forecast has Hyde-Smith winning by about 7. Hyde-Smith remains the favorite, but the polls point to a closer race than expected, and Colom has a credible outside chance if Democratic turnout is exceptionally strong and some Republicans stay home.
 
