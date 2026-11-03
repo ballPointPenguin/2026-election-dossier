@@ -16,6 +16,22 @@ candidates:
   - { name: Andy Biggs, party: R }
   - { name: Risa Lombardo, party: G }
   - { name: Teri Ann Hourihan, party: No Labels }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Hobbs, party: D, pct: 96.3 }
+    - { name: Biggs, party: R, pct: 3.7 }
+  average:
+    margin: D+9.0
+    candidates:
+      - { name: Hobbs, party: D, pct: 51.4 }
+      - { name: Biggs, party: R, pct: 42.4 }
+  polls:
+    - { dates: "Oct 26–28", pollster: "OH Predictive Insights", sample: "511 LV", results: { Hobbs: 51, Biggs: 45 }, margin: D+6, influence: 1.64 }
+    - { dates: "Oct 25–27", pollster: "Kreate Strategies (R)", sample: "900 LV", results: { Hobbs: 48, Biggs: 43 }, margin: D+5, influence: 1.01 }
+    - { dates: "Oct 21–25", pollster: "HighGround Inc.", sample: "400 LV", results: { Hobbs: 52, Biggs: 39 }, margin: D+12, influence: 0.79 }
+    - { dates: "Oct 28–29", pollster: "GrayHouse (R)", sample: "500 LV", results: { Hobbs: 50, Biggs: 45 }, margin: D+5, influence: 0.72 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
@@ -88,9 +104,9 @@ The Hill/Decision Desk HQ's average of 32 polls has Hobbs at 49.9% and Biggs at 
 
 | Pollster | Dates | Hobbs (D) | Biggs (R) | Margin |
 | --- | --- | --- | --- | --- |
-| GrayHouse | Oct. 29–30 | 50% | 45% | D+5 |
-| Noble | Oct. 26–28 | 51% | 45% | D+6 |
-| Kreate | Oct. 25–27 | 48% | 43% | D+5 |
+| GrayHouse (R) | Oct. 28–29 | 50% | 45% | D+5 |
+| Noble (OH Predictive Insights) | Oct. 26–28 | 51% | 45% | D+6 |
+| Kreate Strategies (R) | Oct. 25–27 | 48% | 43% | D+5 |
 | HighGround | Oct. 21–25 | 52% | 39% | D+13 |
 | RedBox | Oct. 20–23 | 47% | 42% | D+5 |
 
