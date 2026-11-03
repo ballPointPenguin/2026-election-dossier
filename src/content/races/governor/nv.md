@@ -34,7 +34,7 @@ All three are on the ballot, along with Nevada's "None of These Candidates" opti
 
 ## Nevada's history: a real battleground
 
-For much of the 2000s and 2010s Democrats built a formidable operation around Las Vegas's hospitality industry and organized labor, and the infrastructure tied to the late-era Harry Reid helped them win close statewide races even in bad national years. Nevada has moved right recently, particularly among Latino and working-class voters. Two results stand out:
+For much of the 2000s and 2010s Democrats built a formidable operation around Las Vegas's hospitality industry and organized labor, and the political infrastructure associated with former Sen. Harry Reid helped them win close statewide races even in bad national years. Nevada has moved right recently, particularly among Latino and working-class voters. Two results stand out:
 
 - In 2022 Lombardo beat Democratic Gov. Steve Sisolak by about 1.5 points while Sen. Catherine Cortez Masto narrowly survived.
 - In 2024 Trump became the first Republican presidential candidate to carry Nevada since George W. Bush in 2004, yet Sen. Jacky Rosen won reelection on the same ballot.
