@@ -17,6 +17,22 @@ candidates:
   - { name: Douglas Campbell, party: G }
   - { name: Anthony Hudson, party: L }
   - { name: Donna Brandenburg, party: U.S. Taxpayers }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Benson, party: D, pct: 96.4 }
+    - { name: James, party: R, pct: 3.6 }
+  average:
+    margin: D+8.6
+    candidates:
+      - { name: Benson, party: D, pct: 51.6 }
+      - { name: James, party: R, pct: 43.0 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,316 LV", results: { Benson: 53, James: 45 }, margin: D+8, influence: 2.52 }
+    - { dates: "Oct 23–Nov 1", pollster: "The New York Times/Siena College", sample: "1,011 LV", results: { Benson: 52, James: 39 }, margin: D+12, influence: 2.07 }
+    - { dates: "Nov 1", pollster: "Emerson College", sample: "500 LV", results: { Benson: 50, James: 46 }, margin: D+5, influence: 2.02 }
+    - { dates: "Oct 30–Nov 1", pollster: "Concord Public Opinion Partners (D)", sample: "510 LV", results: { Benson: 50, James: 41 }, margin: D+9, influence: 1.83 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
@@ -89,8 +105,11 @@ The labels differ but the direction is clear: Michigan has moved from an early-c
 
 | Pollster | Dates | Benson (D) | James (R) | Margin |
 | --- | --- | --- | --- | --- |
+| AtlasIntel | Oct. 28–Nov. 1 | 53% | 45% | D+8 |
+| Emerson | Nov. 1 | 50% | 46% | D+5 |
+| Concord Public Opinion Partners (D) | Oct. 30–Nov. 1 | 50% | 41% | D+9 |
 | Research Co. | Nov. 1 | 56% | 43% | D+13 |
-| NYT/Siena | Nov. 1 | 52% | 39% | D+13 |
+| NYT/Siena | Oct. 23–Nov. 1 | 52% | 39% | D+12 |
 | YouGov | Oct. 26–29 | 52% | 46% | D+6 |
 | Data for Progress | Oct. 23–27 | 52% | 43% | D+9 |
 | CNN/SSRS | Oct. 20–27 | 53% | 41% | D+12 |
