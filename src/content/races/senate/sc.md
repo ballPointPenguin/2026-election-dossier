@@ -16,6 +16,22 @@ candidates:
   - { name: Annie Andrews, party: D }
   - { name: Kasie Whitener, party: L }
   - { name: Mark Hackett, party: Constitution }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Graham, party: R, pct: 66.3 }
+    - { name: Andrews, party: D, pct: 33.7 }
+  average:
+    margin: R+1.1
+    candidates:
+      - { name: Andrews, party: D, pct: 46.1 }
+      - { name: Graham, party: R, pct: 47.2 }
+  polls:
+    - { dates: "Oct 31–Nov 1", pollster: "Trafalgar Group (R)", sample: "1,091 LV", results: { Andrews: 46, Graham: 48 }, margin: R+2, influence: 1.71 }
+    - { dates: "Oct 19–26", pollster: "The New York Times/Siena College", sample: "707 LV", results: { Andrews: 48, Graham: 49 }, margin: R+1, influence: 1.41 }
+    - { dates: "Oct 27–31", pollster: "Rasmussen Reports (R)", sample: "1,028 LV", results: { Andrews: 47, Graham: 50 }, margin: R+3, influence: 1.23 }
+    - { dates: "Oct 27–29", pollster: "Patinkin Research Strategies (D)", sample: "500 LV", results: { Andrews: 48, Graham: 43 }, margin: D+5, influence: 1.17 }
 ---
 
 <!-- TODO: an earlier election-night cheat sheet had Cook and Sabato both at Likely R for this race; this source says Cook Lean R. Used this source; re-verify against Cook. DDHQ rating not given. -->
@@ -88,12 +104,15 @@ South Carolina also elects a governor, with Republican Attorney General Alan Wil
 
 | Pollster | Dates | Graham (R) | Andrews (D) | Margin |
 | --- | --- | --- | --- | --- |
-| Trafalgar | Nov. 2 | 48% | 46% | R+2 |
-| Rasmussen | Oct. 31 | 50% | 47% | R+3 |
+| Trafalgar Group (R) | Oct. 31–Nov. 1 | 48% | 46% | R+2 |
+| Rasmussen Reports (R) | Oct. 27–31 | 50% | 47% | R+3 |
+| Patinkin Research Strategies (D) | Oct. 27–29 | 43% | 48% | D+5 |
 | East Carolina University | Oct. 29 | 51% | 47% | R+4 |
-| NYT/Siena | Oct. 28 | 48% | 48% | Tie |
+| NYT/Siena | Oct. 19–26 | 49% | 48% | R+1 |
 | Targoz | Oct. 25 | 47% | 46% | R+1 |
 | Impact Research | Oct. 21 | 44% | 45% | D+1 |
+
+<!-- TODO: the source had NYT/Siena at 48–48 (Oct. 28); FLIPR lists Graham 49, Andrews 48 (Oct. 19–26). Used FLIPR's; confirm. -->
 
 A November 2 election simulation gives Graham a 65% chance with a projected Republican margin of 1.9 points, one model's estimate, not a guarantee. Graham is the favorite, but South Carolina is legitimately competitive: Andrews has a plausible path if Democratic turnout is strong and enough independents or disaffected Republicans cross over.
 
