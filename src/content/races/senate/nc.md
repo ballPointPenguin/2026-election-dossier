@@ -15,6 +15,22 @@ candidates:
   - { name: Michael Whatley, party: R }
   - { name: Shannon W. Bray, party: L }
   - { name: Michael Dublin, party: G }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Cooper, party: D, pct: 97.5 }
+    - { name: Whatley, party: R, pct: 2.5 }
+  average:
+    margin: D+11.0
+    candidates:
+      - { name: Cooper, party: D, pct: 53.7 }
+      - { name: Whatley, party: R, pct: 42.7 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,459 LV", results: { Cooper: 56, Whatley: 42 }, margin: D+15, influence: 2.84 }
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "2,123 LV", results: { Cooper: 55, Whatley: 44 }, margin: D+11, influence: 1.76 }
+    - { dates: "Oct 26–29", pollster: "East Carolina University", sample: "1,041 LV", results: { Cooper: 54, Whatley: 45 }, margin: D+9, influence: 1.62 }
+    - { dates: "Oct 7–11", pollster: "SurveyUSA", sample: "643 LV", results: { Cooper: 54, Whatley: 40 }, margin: D+14, influence: 0.62 }
 ---
 
 <!-- TODO: only Cook and RealClearPolitics ratings were given; add Inside, Sabato and DDHQ when known. -->
@@ -105,12 +121,13 @@ The Hill/Decision Desk HQ's polling estimate, drawn from 53 surveys and not a fo
 
 | Pollster | Dates | Cooper (D) | Whatley (R) | Margin |
 | --- | --- | --- | --- | --- |
-| AtlasIntel | Nov. 2 | 56.4% | 41.5% | D+14.9 |
-| East Carolina University | Oct. 29 | 54% | 45% | D+9 |
-| YouGov | Oct. 29 | 55% | 44% | D+11 |
+| AtlasIntel | Oct. 28–Nov. 1 | 56.4% | 41.5% | D+14.9 |
+| East Carolina University | Oct. 26–29 | 54% | 45% | D+9 |
+| YouGov | Oct. 26–29 | 55% | 44% | D+11 |
 | High Point University | Oct. 28 | 54% | 40% | D+14 |
 | Quantus Insights | Oct. 25 | 51% | 43% | D+8 |
 | Harper Polling | Oct. 20 | 49% | 39% | D+10 |
+| SurveyUSA | Oct. 7–11 | 54% | 40% | D+14 |
 
 Even Republican-aligned polls have generally had Cooper ahead, and he's at or above 50% in most recent surveys. He's a strong favorite; Whatley would need a very large polling error, a major turnout surprise, or both. It's still worth watching because North Carolina has repeatedly disappointed Democrats in federal elections.
 
