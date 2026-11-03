@@ -15,6 +15,22 @@ candidates:
   - { name: Tina Kotek, party: D }
   - { name: Christine Drazan, party: R }
   - { name: Brett Smith, party: Pacific Green }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Kotek, party: D, pct: 84.6 }
+    - { name: Drazan, party: R, pct: 15.4 }
+  average:
+    margin: D+1.6
+    candidates:
+      - { name: Kotek, party: D, pct: 46.0 }
+      - { name: Drazan, party: R, pct: 44.4 }
+  polls:
+    - { dates: "Oct 1–4", pollster: "GBAO (D)", sample: "800 LV", results: { Kotek: 46, Drazan: 42 }, margin: D+4, influence: 1.27 }
+    - { dates: "Sep 24–Oct 1", pollster: "DHM Research", sample: "549 LV", results: { Kotek: 46, Drazan: 44 }, margin: D+2, influence: 0.56 }
+    - { dates: "Sep 17–27", pollster: "DHM Research", sample: "915 LV", results: { Kotek: 46, Drazan: 47 }, margin: R+1, influence: 0.44 }
+    - { dates: "Sep 3–9", pollster: "DHM Research", sample: "600 LV", results: { Kotek: 43, Drazan: 45 }, margin: R+2, influence: 0.11 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
