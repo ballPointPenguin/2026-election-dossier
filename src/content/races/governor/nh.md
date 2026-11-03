@@ -13,6 +13,22 @@ candidates:
   - { name: Kelly Ayotte, party: R }
   - { name: Cinde Warmington, party: D }
   - { name: Stephen Villee, party: L }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Ayotte, party: R, pct: 91.2 }
+    - { name: Warmington, party: D, pct: 8.8 }
+  average:
+    margin: R+6.6
+    candidates:
+      - { name: Warmington, party: D, pct: 43.6 }
+      - { name: Ayotte, party: R, pct: 50.2 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,057 LV", results: { Warmington: 44, Ayotte: 50 }, margin: R+6, influence: 2.58 }
+    - { dates: "Oct 27–31", pollster: "University of New Hampshire", sample: "2,026 LV", results: { Warmington: 48, Ayotte: 48 }, margin: D+0, influence: 1.73 }
+    - { dates: "Oct 19–20", pollster: "Saint Anselm College", sample: "1,672 LV", results: { Warmington: 42, Ayotte: 50 }, margin: R+8, influence: 1.19 }
+    - { dates: "Oct 20–23", pollster: "Rasmussen Reports (R)", sample: "970 LV", results: { Warmington: 42, Ayotte: 52 }, margin: R+10, influence: 0.97 }
 ---
 
 <!-- TODO: the source gave a single "Likely Republican" rating without naming forecasters; replace with Cook, Inside, Sabato and DDHQ when available. -->
@@ -86,9 +102,10 @@ The final UNH Granite State Poll (Oct. 27–31) had Ayotte and Warmington tied a
 
 | Pollster | Dates | Ayotte (R) | Warmington (D) | Margin |
 | --- | --- | --- | --- | --- |
+| AtlasIntel | Oct. 28–Nov. 1 | 50% | 44% | R+6 |
 | UNH | Oct. 27–31 | 48% | 48% | Tie |
 | UMass Lowell/YouGov | Oct. 2–19 | 48% | 42% | R+6 |
-| Rasmussen | Oct. 20–23 | 52% | 42% | R+10 |
+| Rasmussen Reports (R) | Oct. 20–23 | 52% | 42% | R+10 |
 | Saint Anselm | Oct. 19–20 | 50% | 42% | R+8 |
 | AARP/Saint Anselm | Sept. 28–29 | 52% | 45% | R+7 |
 | NYT/Siena | Sept. 15–22 | 52% | 41% | R+11 |
