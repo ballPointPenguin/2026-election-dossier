@@ -15,6 +15,22 @@ candidates:
   - { name: Joe Lombardo, party: R }
   - { name: Aaron Ford, party: D }
   - { name: Danielle Ford, party: Nonpartisan }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Ford, party: D, pct: 52.7 }
+    - { name: Lombardo, party: R, pct: 47.3 }
+  average:
+    margin: D+0.2
+    candidates:
+      - { name: Ford, party: D, pct: 46.4 }
+      - { name: Lombardo, party: R, pct: 46.2 }
+  polls:
+    - { dates: "Oct 26–28", pollster: "OH Predictive Insights", sample: "487 LV", results: { Ford: 47, Lombardo: 47 }, margin: D+0, influence: 1.61 }
+    - { dates: "Oct 20–25", pollster: "Hart Research Associates/Public Opinion Strategies (D)", sample: "950 LV", results: { Ford: 49, Lombardo: 45 }, margin: D+4, influence: 1.35 }
+    - { dates: "Sep 26–30", pollster: "Concord Public Opinion Partners (D)", sample: "565 LV", results: { Ford: 42, Lombardo: 43 }, margin: R+1, influence: 0.37 }
+    - { dates: "Sep 5–8", pollster: "Emerson College", sample: "680 LV", results: { Ford: 44, Lombardo: 42 }, margin: D+2, influence: 0.15 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
@@ -96,10 +112,11 @@ The FiftyPlusOne average on November 3 has Ford at 46.3% and Lombardo at 45.7%, 
 
 | Pollster | Dates | Ford (D) | Lombardo (R) | Margin |
 | --- | --- | --- | --- | --- |
-| Noble | Oct. 26–28 | 47% | 47% | Tie |
+| Noble (OH Predictive Insights) | Oct. 26–28 | 47% | 47% | Tie |
 | Hart Research (Democratic-aligned sponsor) | Oct. 20–25 | 49% | 45% | D+4 |
 | RedBox (progressive super PAC) | Oct. 20–23 | 46% | 43% | D+3 |
 | Global Strategy Group (for Ford's campaign) | Oct. 8–13 | 47% | 48% | R+1 |
+| Concord Public Opinion Partners (D) | Sept. 26–30 | 42% | 43% | R+1 |
 | Noble | Sept. 22–26 | 40% | 42% | R+2 |
 | Emerson | Sept. 5–8 | 44% | 42% | D+2 |
 
