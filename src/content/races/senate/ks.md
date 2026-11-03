@@ -11,6 +11,7 @@ ratings:
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Cook Political Report: Toss Up (Nov. 2)
   Inside Elections: Toss Up (updated Oct. 29)
+  Decision Desk HQ: Toss Up (Nov. 2)
 candidates:
   - { name: Roger Marshall, party: R }
   - { name: Adam Hamilton, party: D }
@@ -32,8 +33,6 @@ silverBulletin:
     - { dates: "Oct 26–29", pollster: "YouGov", sample: "2,086 LV", results: { Hamilton: 50, Marshall: 49 }, margin: D+1, influence: 1.93 }
     - { dates: "Oct 26–28", pollster: "Emerson College", sample: "800 LV", results: { Hamilton: 50, Marshall: 47 }, margin: D+2, influence: 1.89 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Kansas is one of the more surprising Senate battlegrounds of 2026. Republican Sen. Roger Marshall, seeking a second term, faces Democratic pastor Adam Hamilton, a prominent United Methodist leader whose broad appeal has made the race more competitive than Kansas's Republican presidential record suggests.
 
@@ -102,6 +101,7 @@ Candidate committee receipts through October 14; outside spending excluded. Repu
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Cook Political Report | Toss Up (Nov. 2) |
 | Inside Elections | Toss Up (updated Oct. 29) |
+| Decision Desk HQ | Toss Up (Nov. 2) |
 
 RealClearPolling's average of recent polls had Hamilton ahead 49.8% to 46.2%, a 3.6-point lead, as of November 2.
 

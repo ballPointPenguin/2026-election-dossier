@@ -11,6 +11,7 @@ ratings:
   Cook Political Report: Lean Republican (Nov. 2)
   Inside Elections: Tilt Republican (updated Oct. 29)
   Sabato's Crystal Ball: Lean Republican (Nov. 2)
+  Decision Desk HQ: Lean Republican (Nov. 2)
 candidates:
   - { name: Darline Graham, party: R }
   - { name: Annie Andrews, party: D }
@@ -33,8 +34,6 @@ silverBulletin:
     - { dates: "Oct 27–31", pollster: "Rasmussen Reports (R)", sample: "1,028 LV", results: { Andrews: 47, Graham: 50 }, margin: R+3, influence: 1.23 }
     - { dates: "Oct 27–29", pollster: "Patinkin Research Strategies (D)", sample: "500 LV", results: { Andrews: 48, Graham: 43 }, margin: D+5, influence: 1.17 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 South Carolina has become one of the more interesting Senate races of 2026. What began as a routine reelection campaign for Republican Sen. Lindsey Graham changed with his death on July 11, after which Gov. Henry McMaster appointed his sister, Darline Graham, to the seat. The contest now pits the appointed incumbent against Democratic physician Annie Andrews in a state Donald Trump carried by about 18 points in 2024.
 
@@ -99,6 +98,7 @@ South Carolina also elects a governor, with Republican Attorney General Alan Wil
 | Cook Political Report | Lean Republican (Nov. 2) |
 | Inside Elections | Tilt Republican (updated Oct. 29) |
 | Sabato's Crystal Ball | Lean Republican (Nov. 2) |
+| Decision Desk HQ | Lean Republican (Nov. 2) |
 
 270toWin's simple average of five recent polls, not a forecast, has Graham at 47.4% and Andrews at 45.2%, a 2.2-point lead.
 

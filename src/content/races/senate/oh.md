@@ -10,7 +10,7 @@ openSeat: false
 ratings:
   Cook Political Report: Toss Up (Nov. 2)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
-  Decision Desk HQ: Toss Up (Nov. 3)
+  Decision Desk HQ: Toss Up (Nov. 2)
   Inside Elections: Tilt Democratic (updated Oct. 29)
 candidates:
   - { name: Jon Husted, party: R }
@@ -34,8 +34,6 @@ silverBulletin:
     - { dates: "Oct 31–Nov 1", pollster: "Trafalgar Group (R)", sample: "1,092 LV", results: { Brown: 47, Husted: 45 }, margin: D+2, influence: 2.01 }
     - { dates: "Oct 26–Nov 1", pollster: "The New York Times/Siena College", sample: "717 LV", results: { Brown: 49, Husted: 44 }, margin: D+6, influence: 1.97 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Ohio is one of the most consequential and genuinely competitive Senate races of 2026: a comeback attempt by former Democratic Sen. Sherrod Brown against Republican Sen. Jon Husted, appointed to fill JD Vance's seat when Vance became vice president.
 
@@ -105,7 +103,7 @@ Reported advertising spending and reservations through late October top $500 mil
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 2) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
-| Decision Desk HQ | Toss Up (Nov. 3) |
+| Decision Desk HQ | Toss Up (Nov. 2) |
 | Inside Elections | Tilt Democratic (updated Oct. 29) |
 
 The Hill/Decision Desk HQ polling estimate, based on 53 surveys and not a predicted result, has Brown at 48.5% and Husted at 46.2%, a 2.3-point lead. Other averages range from Brown +2 to +3.5.

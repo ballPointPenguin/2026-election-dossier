@@ -11,6 +11,7 @@ ratings:
   Cook Political Report: Toss Up (Nov. 2)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Inside Elections: Tilt Democratic (updated Oct. 29)
+  Decision Desk HQ: Lean Democratic (Nov. 2)
 candidates:
   - { name: James Talarico, party: D }
   - { name: Ken Paxton, party: R }
@@ -32,8 +33,6 @@ silverBulletin:
     - { dates: "Oct 31–Nov 1", pollster: "Emerson College", sample: "500 LV", results: { Talarico: 50, Paxton: 48 }, margin: D+1, influence: 1.84 }
     - { dates: "Oct 31–Nov 1", pollster: "Trafalgar Group (R)", sample: "1,089 LV", results: { Talarico: 48, Paxton: 48 }, margin: R+1, influence: 1.79 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Texas has become one of the most extraordinary Senate battlegrounds of 2026. Republican Attorney General Ken Paxton faces Democratic state Rep. James Talarico in a race that could end more than three decades of Republican dominance in statewide Texas elections.
 
@@ -111,6 +110,7 @@ That gives Talarico a rhetorical argument about billionaire influence, though De
 | Cook Political Report | Toss Up (Nov. 2) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Inside Elections | Tilt Democratic (updated Oct. 29) |
+| Decision Desk HQ | Lean Democratic (Nov. 2) |
 
 A weighted average of 44 polls (PolitiKool), not a forecast, has Talarico at 48.7% and Paxton at 43.3%, a 5.4-point lead as of November 2. Other aggregators show a smaller Democratic edge, roughly two to five points.
 

@@ -11,6 +11,7 @@ ratings:
   Inside Elections: Lean Democratic (updated Oct. 29)
   Sabato's Crystal Ball: Likely Democratic (Nov. 2)
   Cook Political Report: Lean Democratic (Nov. 2)
+  Decision Desk HQ: Likely Democratic (Nov. 2)
 candidates:
   - { name: Peggy Flanagan, party: D }
   - { name: Michele Tafoya, party: R }
@@ -33,8 +34,6 @@ silverBulletin:
     - { dates: "Oct 30–Nov 1", pollster: "Research Co.", sample: "450 LV", results: { Flanagan: 48, Tafoya: 43 }, margin: D+5, influence: 1.67 }
     - { dates: "Oct 27–Nov 1", pollster: "Survey 160", sample: "1,365 LV", results: { Flanagan: 52, Tafoya: 43 }, margin: D+9, influence: 1.67 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Minnesota's Senate race is an open-seat contest following Democratic Sen. Tina Smith's retirement. Minnesota hasn't voted Republican for president since 1972, but it isn't overwhelmingly Democratic: Trump lost it by only about four points in 2024, and Republicans remain competitive in the legislature and several congressional districts. The national environment and the candidates' profiles have nonetheless made Flanagan the clear favorite.
 
@@ -110,6 +109,7 @@ Candidate committee receipts through October 14, excluding outside spending. Nei
 | Inside Elections | Lean Democratic (updated Oct. 29) |
 | Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 | Cook Political Report | Lean Democratic (Nov. 2) |
+| Decision Desk HQ | Likely Democratic (Nov. 2) |
 
 270toWin's simple average of five recent polls, not a forecast, has Flanagan at 49.6% and Tafoya at 44.0%, a 5.6-point lead.
 

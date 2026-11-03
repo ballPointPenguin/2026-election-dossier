@@ -12,6 +12,7 @@ ratings:
   Sabato's Crystal Ball: Likely Democratic (Nov. 2)
   Cook Political Report: Likely Democratic (Nov. 2)
   Inside Elections: Likely Democratic (updated Oct. 29)
+  Decision Desk HQ: Likely Democratic (Nov. 2)
 candidates:
   - { name: Jon Ossoff, party: D }
   - { name: Mike Collins, party: R }
@@ -32,8 +33,6 @@ silverBulletin:
     - { dates: "Oct 16–23", pollster: "Echelon Insights", sample: "508 LV", results: { Ossoff: 55, Collins: 40 }, margin: D+15, influence: 0.95 }
     - { dates: "Oct 15–17", pollster: "Quantus Insights", sample: "755 LV", results: { Ossoff: 53, Collins: 45 }, margin: D+7, influence: 0.59 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Georgia is one of the most important Democratic-held Senate seats on the ballot. First-term Democrat Jon Ossoff is seeking reelection in a state Donald Trump narrowly won in 2024, against two-term Republican Rep. Mike Collins from northeastern Georgia. Unlike Alaska or Florida, where Democrats are trying to flip Republican seats, this is mostly a defensive race: losing it would make an already hard path to a Senate majority much harder.
 
@@ -92,6 +91,7 @@ A candidate needs more than 50% to win outright. If nobody gets there, the top t
 | Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 | Cook Political Report | Likely Democratic (Nov. 2) |
 | Inside Elections | Likely Democratic (updated Oct. 29) |
+| Decision Desk HQ | Likely Democratic (Nov. 2) |
 
 RealClearPolling's final average of seven recent polls has Ossoff at 51.9% and Collins at 43.3%, an 8.6-point lead.
 

@@ -2,7 +2,7 @@
 office: senate
 state: NE
 title: Ricketts v. Osborn II, an independent's second run
-summary: Republican Sen. Pete Ricketts faces independent Dan Osborn, who came within about seven points of Deb Fischer in 2024, in a state Trump won by roughly 20 points; polls put Ricketts ahead by about two and Cook and Sabato rate it Lean Republican while Inside Elections says Tilt Republican.
+summary: Republican Sen. Pete Ricketts faces independent Dan Osborn, who came within about seven points of Deb Fischer in 2024, in a state Trump won by roughly 20 points; polls put Ricketts ahead by about two and Cook, Sabato and Decision Desk HQ rate it Lean Republican while Inside Elections says Tilt Republican.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: R
@@ -10,7 +10,7 @@ openSeat: false
 ratings:
   Cook Political Report: Lean Republican (Nov. 2)
   Sabato's Crystal Ball: Lean Republican (Nov. 2)
-  Decision Desk HQ: Lean Republican (Nov. 3)
+  Decision Desk HQ: Lean Republican (Nov. 2)
   Inside Elections: Tilt Republican (updated Oct. 29)
 candidates:
   - { name: Pete Ricketts, party: R }
@@ -35,8 +35,6 @@ silverBulletin:
     - { dates: "Oct 29–Nov 1", pollster: "GrayHouse", sample: "534 LV", results: { Ricketts: 50, Osborn: 46 }, margin: R+4, influence: 1.51 }
     - { dates: "Oct 16–23", pollster: "Echelon Insights", sample: "407 LV", results: { Ricketts: 47, Osborn: 46 }, margin: R+1, influence: 0.93 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Nebraska features a rematch of sorts: Republican Sen. Pete Ricketts against independent Dan Osborn, who nearly beat Republican Sen. Deb Fischer in 2024 despite Nebraska's overwhelming Republican presidential preference. Now he's trying to finish the job against Ricketts, a wealthy former governor appointed to the Senate in 2023.
 
@@ -106,7 +104,7 @@ An Osborn win would be one of the most unusual outcomes of 2026 and a test of wh
 | --- | --- |
 | Cook Political Report | Lean Republican (Nov. 2) |
 | Sabato's Crystal Ball | Lean Republican (Nov. 2) |
-| Decision Desk HQ | Lean Republican (Nov. 3) |
+| Decision Desk HQ | Lean Republican (Nov. 2) |
 | Inside Elections | Tilt Republican (updated Oct. 29) |
 
 DDHQ/The Hill's polling estimate, drawn from 21 surveys and not an election forecast, has Ricketts at 47.7% and Osborn at 45.6%, a 2.1-point lead.

@@ -11,7 +11,7 @@ ratings:
   Cook Political Report: Lean Democratic (Nov. 2)
   Inside Elections: Tilt Democratic (updated Oct. 29)
   Sabato's Crystal Ball: Lean Democratic (Nov. 2)
-  Decision Desk HQ: Lean Democratic (Nov. 3)
+  Decision Desk HQ: Likely Democratic (Nov. 2)
 candidates:
   - { name: Abdul El-Sayed, party: D }
   - { name: Mike Rogers, party: R }
@@ -105,7 +105,7 @@ Michigan's Senate race has drawn nearly $300 million in spending, one of the mos
 | Cook Political Report | Lean Democratic (Nov. 2) |
 | Inside Elections | Tilt Democratic (updated Oct. 29) |
 | Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
-| Decision Desk HQ | Lean Democratic (Nov. 3) |
+| Decision Desk HQ | Likely Democratic (Nov. 2) |
 
 | Pollster | Dates | El-Sayed (D) | Rogers (R) | Margin |
 | --- | --- | --- | --- | --- |

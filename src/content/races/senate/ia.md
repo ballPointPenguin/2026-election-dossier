@@ -10,7 +10,7 @@ openSeat: true
 ratings:
   Cook Political Report: Toss Up (Nov. 2)
   Sabato's Crystal Ball: Lean Republican (Nov. 2)
-  Decision Desk HQ: Toss Up (Nov. 3)
+  Decision Desk HQ: Toss Up (Nov. 2)
   Inside Elections: Toss Up (updated Oct. 29)
 candidates:
   - { name: Ashley Hinson, party: R }
@@ -33,8 +33,6 @@ silverBulletin:
     - { dates: "Oct 26–29", pollster: "YouGov", sample: "2,016 LV", results: { Turek: 50, Hinson: 49 }, margin: D+1, influence: 1.74 }
     - { dates: "Oct 28–31", pollster: "GrayHouse", sample: "601 LV", results: { Turek: 46, Hinson: 48 }, margin: R+2, influence: 1.50 }
 ---
-
-<!-- TODO: add the Decision Desk HQ Senate rating. -->
 
 Iowa is one of the more surprising Senate battlegrounds of 2026. Republican Sen. Joni Ernst's retirement opened the seat for Republican Rep. Ashley Hinson and Democratic state Rep. Josh Turek, a Paralympic gold medalist. What began as a fairly safe Republican seat is now essentially tied, even though Trump carried Iowa by about 13 points in 2024.
 
@@ -97,7 +95,7 @@ Outside spending has been extraordinary: one tracker reports more than $200 mill
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 2) |
 | Sabato's Crystal Ball | Lean Republican (Nov. 2) |
-| Decision Desk HQ | Toss Up (Nov. 3) |
+| Decision Desk HQ | Toss Up (Nov. 2) |
 | Inside Elections | Toss Up (updated Oct. 29) |
 
 270toWin's final average of five recent polls, including surveys through November 2, is a tie at 47.0% each.
