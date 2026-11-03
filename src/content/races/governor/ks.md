@@ -14,6 +14,22 @@ ratings:
 candidates:
   - { name: Ty Masterson, party: R }
   - { name: Cindy Holscher, party: D }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Masterson, party: R, pct: 53.8 }
+    - { name: Holscher, party: D, pct: 46.2 }
+  average:
+    margin: tied
+    candidates:
+      - { name: Holscher, party: D, pct: 48.3 }
+      - { name: Masterson, party: R, pct: 48.3 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "2,038 LV", results: { Holscher: 50, Masterson: 46 }, margin: D+4, influence: 3.25 }
+    - { dates: "Oct 27–Nov 1", pollster: "The New York Times/Siena College", sample: "736 LV", results: { Holscher: 48, Masterson: 47 }, margin: D+0, influence: 2.37 }
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "2,085 LV", results: { Holscher: 49, Masterson: 50 }, margin: R+1, influence: 1.96 }
+    - { dates: "Oct 26–28", pollster: "Emerson College", sample: "800 LV", results: { Holscher: 48, Masterson: 53 }, margin: R+5, influence: 1.92 }
 ---
 
 <!-- TODO: DDHQ gives Masterson a 64% chance (projected margin about 5), but no rating label was given; add the rating when known. -->
@@ -83,11 +99,14 @@ Decision Desk HQ's polling average as of November 2 has Masterson at 48.1% and H
 
 | Pollster | Dates | Masterson (R) | Holscher (D) | Margin |
 | --- | --- | --- | --- | --- |
+| AtlasIntel | Oct. 28–Nov. 1 | 46% | 50% | D+4 |
 | NYT/Siena | Oct. 27–Nov. 1 | 47% | 48% | D+1 |
 | YouGov | Oct. 26–29 | 50% | 49% | R+1 |
 | Emerson | Oct. 26–28 | 50% | 46% | R+4 |
 | Washington Post/SSPG | Oct. 22–26 | 45% | 51% | D+6 |
 | CNN/SSRS | Oct. 20–26 | 50% | 45% | R+5 |
+
+<!-- TODO: FLIPR lists Emerson as Masterson 53, Holscher 48 (R+5); the source had 50–46. Likely different cuts; confirm. -->
 
 Rounded likely-voter results, with the NYT/Siena and YouGov figures rounded from their published estimates. The polling suggests a toss-up, but the state's underlying Republican preference makes Masterson the favorite.
 
