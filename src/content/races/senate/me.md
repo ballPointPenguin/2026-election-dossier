@@ -14,6 +14,22 @@ ratings:
 candidates:
   - { name: Susan Collins, party: R }
   - { name: Troy Jackson, party: D }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Jackson, party: D, pct: 79.4 }
+    - { name: Collins, party: R, pct: 20.6 }
+  average:
+    margin: D+3.9
+    candidates:
+      - { name: Jackson, party: D, pct: 50.5 }
+      - { name: Collins, party: R, pct: 46.5 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "967 LV", results: { Jackson: 53, Collins: 44 }, margin: D+9, influence: 2.29 }
+    - { dates: "Oct 31–Nov 1", pollster: "Emerson College", sample: "600 LV", results: { Jackson: 49, Collins: 51 }, margin: R+1, influence: 2.22 }
+    - { dates: "Oct 27–Nov 1", pollster: "The New York Times/Siena College", sample: "714 LV", results: { Jackson: 51, Collins: 45 }, margin: D+6, influence: 2.11 }
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "1,501 LV", results: { Jackson: 52, Collins: 47 }, margin: D+5, influence: 1.62 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add it when known. -->
@@ -79,11 +95,11 @@ Maine uses ranked-choice voting for federal elections. If nobody tops 50% of fir
 
 | Pollster | Dates | Jackson (D) | Collins (R) | Margin |
 | --- | --- | --- | --- | --- |
-| Emerson | Nov. 2 | 49% | 51% | R+2 |
-| AtlasIntel | Nov. 2 | 53% | 44% | D+9 |
+| Emerson | Oct. 31–Nov. 1 | 49% | 51% | R+2 |
+| AtlasIntel | Oct. 28–Nov. 1 | 53% | 44% | D+9 |
 | University of New Hampshire | Nov. 1 | 54% | 45% | D+9 |
-| NYT/Siena | Nov. 1 | 51% | 45% | D+6 |
-| YouGov | Nov. 1 | 52% | 47% | D+5 |
+| NYT/Siena | Oct. 27–Nov. 1 | 51% | 45% | D+6 |
+| YouGov | Oct. 26–29 | 52% | 47% | D+5 |
 | CNN/SSRS | Oct. 29 | 49% | 45% | D+4 |
 
 Late polling mostly favors Jackson, but Emerson shows a Collins win is still quite plausible, and forecasters are more cautious than the raw polls. A Democratic pickup is more likely than it looked earlier, without being assured.
