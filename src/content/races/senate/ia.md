@@ -15,6 +15,22 @@ candidates:
   - { name: Ashley Hinson, party: R }
   - { name: Josh Turek, party: D }
   - { name: Thomas Laehn, party: L }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Turek, party: D, pct: 58.2 }
+    - { name: Hinson, party: R, pct: 41.8 }
+  average:
+    margin: D+1.1
+    candidates:
+      - { name: Turek, party: D, pct: 47.7 }
+      - { name: Hinson, party: R, pct: 46.7 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,219 LV", results: { Turek: 51, Hinson: 46 }, margin: D+4, influence: 2.69 }
+    - { dates: "Oct 26–Nov 1", pollster: "The New York Times/Siena College", sample: "705 LV", results: { Turek: 48, Hinson: 47 }, margin: D+1, influence: 2.12 }
+    - { dates: "Oct 26–29", pollster: "YouGov", sample: "2,016 LV", results: { Turek: 50, Hinson: 49 }, margin: D+1, influence: 1.74 }
+    - { dates: "Oct 28–31", pollster: "GrayHouse", sample: "601 LV", results: { Turek: 46, Hinson: 48 }, margin: R+2, influence: 1.50 }
 ---
 
 <!-- TODO: source said Inside Elections is "slightly more favorable to Republicans" without giving a rating; add it when known. -->
@@ -86,9 +102,10 @@ Outside spending has been extraordinary: one tracker reports more than $200 mill
 
 | Pollster | Dates | Turek (D) | Hinson (R) | Margin |
 | --- | --- | --- | --- | --- |
-| GrayHouse | Nov. 2 | 46% | 48% | R+2 |
-| NYT/Siena | Nov. 1 | 48% | 47% | D+1 |
-| YouGov | Nov. 1 | 50% | 49% | D+1 |
+| AtlasIntel | Oct. 28–Nov. 1 | 51% | 46% | D+4 |
+| GrayHouse | Oct. 28–31 | 46% | 48% | R+2 |
+| NYT/Siena | Oct. 26–Nov. 1 | 48% | 47% | D+1 |
+| YouGov | Oct. 26–29 | 50% | 49% | D+1 |
 | co/efficient | Oct. 29 | 46% | 48% | R+2 |
 | Echelon Insights | Oct. 27 | 45% | 43% | D+2 |
 
