@@ -2,14 +2,14 @@
 office: senate
 state: IA
 title: "Open seat, dead heat: Turek v. Hinson"
-summary: With Sen. Joni Ernst retiring, Republican Rep. Ashley Hinson faces Paralympic gold medalist and state Rep. Josh Turek (D) in an essentially tied race in a state Trump won by about 13 points; three forecasters call it a Toss Up.
+summary: With Sen. Joni Ernst retiring, Republican Rep. Ashley Hinson faces Paralympic gold medalist and state Rep. Josh Turek (D) in an essentially tied race in a state Trump won by about 13 points; Cook and Decision Desk HQ call it a Toss Up and Sabato leans Republican.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: true
 ratings:
   Cook Political Report: Toss Up (Nov. 3)
-  Sabato's Crystal Ball: Toss Up (Nov. 3)
+  Sabato's Crystal Ball: Lean Republican (Nov. 2)
   Decision Desk HQ: Toss Up (Nov. 3)
 candidates:
   - { name: Ashley Hinson, party: R }
@@ -95,7 +95,7 @@ Outside spending has been extraordinary: one tracker reports more than $200 mill
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 3) |
-| Sabato's Crystal Ball | Toss Up (Nov. 3) |
+| Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 | Decision Desk HQ | Toss Up (Nov. 3) |
 
 270toWin's final average of five recent polls, including surveys through November 2, is a tie at 47.0% each.

@@ -10,7 +10,7 @@ openSeat: true
 ratings:
   Cook Political Report: Lean Democratic (Nov. 3)
   Inside Elections: Tilt Democratic (Nov. 3)
-  Sabato's Crystal Ball: Likely Democratic (Nov. 3)
+  Sabato's Crystal Ball: Likely Democratic (Nov. 2)
   Decision Desk HQ: Likely Democratic (Nov. 3)
 candidates:
   - { name: Chris Pappas, party: D }
@@ -108,7 +108,7 @@ Candidate committee receipts through October 14, 2026. Outside spending helped c
 | --- | --- |
 | Cook Political Report | Lean Democratic (Nov. 3) |
 | Inside Elections | Tilt Democratic (Nov. 3) |
-| Sabato's Crystal Ball | Likely Democratic (Nov. 3) |
+| Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 | Decision Desk HQ | Likely Democratic (Nov. 3) |
 
 A seven-poll average of recent likely-voter surveys, through November 3 and not a forecast, has Pappas at 50.9% and Sununu at 43.1%, a 7.8-point lead.

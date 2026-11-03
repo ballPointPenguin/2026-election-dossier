@@ -10,7 +10,7 @@ openSeat: false
 ratings:
   Cook Political Report: Lean Republican (Nov. 3)
   Inside Elections: Tilt Republican (Nov. 3)
-  Sabato's Crystal Ball: Likely Republican (Nov. 3)
+  Sabato's Crystal Ball: Lean Republican (Nov. 2)
 candidates:
   - { name: Darline Graham, party: R }
   - { name: Annie Andrews, party: D }
@@ -98,7 +98,7 @@ South Carolina also elects a governor, with Republican Attorney General Alan Wil
 | --- | --- |
 | Cook Political Report | Lean Republican (Nov. 3) |
 | Inside Elections | Tilt Republican (Nov. 3) |
-| Sabato's Crystal Ball | Likely Republican (Nov. 3) |
+| Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 
 270toWin's simple average of five recent polls, not a forecast, has Graham at 47.4% and Andrews at 45.2%, a 2.2-point lead.
 

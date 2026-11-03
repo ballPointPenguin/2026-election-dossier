@@ -10,7 +10,7 @@ openSeat: true
 ratings:
   Cook Political Report: Toss Up (Nov. 3)
   Inside Elections: Tilt Democratic (Nov. 3)
-  Sabato's Crystal Ball: Lean Democratic (Nov. 3)
+  Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Lean Democratic (Nov. 3)
 candidates:
   - { name: Abdul El-Sayed, party: D }
@@ -104,7 +104,7 @@ Michigan's Senate race has drawn nearly $300 million in spending, one of the mos
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 3) |
 | Inside Elections | Tilt Democratic (Nov. 3) |
-| Sabato's Crystal Ball | Lean Democratic (Nov. 3) |
+| Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Lean Democratic (Nov. 3) |
 
 | Pollster | Dates | El-Sayed (D) | Rogers (R) | Margin |

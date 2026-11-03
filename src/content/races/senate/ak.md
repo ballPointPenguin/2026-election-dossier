@@ -10,7 +10,7 @@ openSeat: false
 ratings:
   Cook Political Report: Toss Up (Nov. 3)
   Inside Elections: Toss Up (Nov. 3)
-  Sabato's Crystal Ball: Lean Democratic (Nov. 3)
+  Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Lean Democratic (Nov. 3)
 candidates:
   - { name: Dan Sullivan, party: R }
@@ -101,7 +101,7 @@ Per third-quarter FEC filings as summarized by Ballotpedia. About a 2.6-to-1 edg
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 3) |
 | Inside Elections | Toss Up (Nov. 3) |
-| Sabato's Crystal Ball | Lean Democratic (Nov. 3) |
+| Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Lean Democratic (Nov. 3) |
 
 | Poll / indicator | Peltola (D) | Sullivan (R) |

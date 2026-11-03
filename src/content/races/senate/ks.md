@@ -2,13 +2,13 @@
 office: senate
 state: KS
 title: A pastor takes on Marshall in a state Democrats haven't won since 1932
-summary: Republican Sen. Roger Marshall faces Democratic pastor Adam Hamilton in a state Trump won by about 16 points; Hamilton leads the late polls by three to four points, and the race is treated as a Toss Up.
+summary: Republican Sen. Roger Marshall faces Democratic pastor Adam Hamilton in a state Trump won by about 16 points; Hamilton leads the late polls by three to four points, and the race is treated as a Toss Up, with Sabato leaning Democratic.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Rating (forecaster unspecified): Toss Up (Nov. 3)
+  Sabato's Crystal Ball: Lean Democratic (Nov. 2)
 candidates:
   - { name: Roger Marshall, party: R }
   - { name: Adam Hamilton, party: D }
@@ -97,7 +97,7 @@ Candidate committee receipts through October 14; outside spending excluded. Repu
 
 | Forecaster | Rating |
 | --- | --- |
-| Forecaster unspecified | Toss Up (Nov. 3) |
+| Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 
 RealClearPolling's average of recent polls had Hamilton ahead 49.8% to 46.2%, a 3.6-point lead, as of November 2.
 

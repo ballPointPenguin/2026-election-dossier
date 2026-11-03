@@ -9,7 +9,7 @@ incumbentParty: R
 openSeat: false
 ratings:
   Cook Political Report: Lean Republican (Nov. 3)
-  Sabato's Crystal Ball: Lean Republican (Nov. 3)
+  Sabato's Crystal Ball: Lean Republican (Nov. 2)
   Decision Desk HQ: Lean Republican (Nov. 3)
 candidates:
   - { name: Pete Ricketts, party: R }
@@ -104,7 +104,7 @@ An Osborn win would be one of the most unusual outcomes of 2026 and a test of wh
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Lean Republican (Nov. 3) |
-| Sabato's Crystal Ball | Lean Republican (Nov. 3) |
+| Sabato's Crystal Ball | Lean Republican (Nov. 2) |
 | Decision Desk HQ | Lean Republican (Nov. 3) |
 
 DDHQ/The Hill's polling estimate, drawn from 21 surveys and not an election forecast, has Ricketts at 47.7% and Osborn at 45.6%, a 2.1-point lead.

@@ -2,14 +2,14 @@
 office: senate
 state: OH
 title: Sherrod Brown tries a comeback against Husted for Vance's old seat
-summary: Former Democratic Sen. Sherrod Brown faces appointed Republican Sen. Jon Husted in a special election for the rest of JD Vance's term; Brown leads polling averages by two to three points in a state Trump won by 11, and forecasters call it a Toss Up.
+summary: Former Democratic Sen. Sherrod Brown faces appointed Republican Sen. Jon Husted in a special election for the rest of JD Vance's term; Brown leads polling averages by two to three points in a state Trump won by 11, and Cook and Decision Desk HQ call it a Toss Up while Sabato leans Democratic.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
   Cook Political Report: Toss Up (Nov. 3)
-  Sabato's Crystal Ball: Toss Up (Nov. 3)
+  Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Decision Desk HQ: Toss Up (Nov. 3)
 candidates:
   - { name: Jon Husted, party: R }
@@ -103,7 +103,7 @@ Reported advertising spending and reservations through late October top $500 mil
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 3) |
-| Sabato's Crystal Ball | Toss Up (Nov. 3) |
+| Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Decision Desk HQ | Toss Up (Nov. 3) |
 
 The Hill/Decision Desk HQ polling estimate, based on 53 surveys and not a predicted result, has Brown at 48.5% and Husted at 46.2%, a 2.3-point lead. Other averages range from Brown +2 to +3.5.

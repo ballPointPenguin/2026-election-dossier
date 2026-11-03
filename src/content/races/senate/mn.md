@@ -9,7 +9,7 @@ incumbentParty: D
 openSeat: true
 ratings:
   Inside Elections: Lean Democratic (Nov. 3)
-  Rating (forecaster unspecified): Likely Democratic (Nov. 3)
+  Sabato's Crystal Ball: Likely Democratic (Nov. 2)
 candidates:
   - { name: Peggy Flanagan, party: D }
   - { name: Michele Tafoya, party: R }
@@ -107,7 +107,7 @@ Candidate committee receipts through October 14, excluding outside spending. Nei
 | Forecaster | Rating |
 | --- | --- |
 | Inside Elections | Lean Democratic (Nov. 3) |
-| Forecaster unspecified | Likely Democratic (Nov. 3) |
+| Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 
 270toWin's simple average of five recent polls, not a forecast, has Flanagan at 49.6% and Tafoya at 44.0%, a 5.6-point lead.
 

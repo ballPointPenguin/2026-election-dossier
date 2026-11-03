@@ -8,7 +8,7 @@ ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: false
 ratings:
-  Rating (forecaster unspecified): Likely Republican (Nov. 3)
+  Sabato's Crystal Ball: Likely Republican (Nov. 2)
 candidates:
   - { name: Ashley Moody, party: R }
   - { name: Angie Nixon, party: D }
@@ -97,7 +97,7 @@ Candidate committee receipts through October 14, 2026. Nixon outraised Moody by 
 
 | Forecaster | Rating |
 | --- | --- |
-| Forecaster unspecified | Likely Republican (Nov. 3) |
+| Sabato's Crystal Ball | Likely Republican (Nov. 2) |
 
 270toWin's average of seven recent polls, including surveys released through November 2, has Moody at 50.4% and Nixon at 44.3%, a 6.1-point lead.
 

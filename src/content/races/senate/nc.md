@@ -10,6 +10,7 @@ openSeat: true
 ratings:
   Cook Political Report: Likely Democratic (Nov. 3; moved Oct. 6)
   RealClearPolitics: Likely Democratic (Nov. 3)
+  Sabato's Crystal Ball: Likely Democratic (Nov. 2)
 candidates:
   - { name: Roy Cooper, party: D }
   - { name: Michael Whatley, party: R }
@@ -116,6 +117,7 @@ The Libertarian nominee, Shannon W. Bray, and Green nominee, Michael Dublin, are
 | --- | --- |
 | Cook Political Report | Likely Democratic (Nov. 3; moved Oct. 6) |
 | RealClearPolitics | Likely Democratic (Nov. 3) |
+| Sabato's Crystal Ball | Likely Democratic (Nov. 2) |
 
 The Hill/Decision Desk HQ's polling estimate, drawn from 53 surveys and not a forecast, has Cooper at 54.1% and Whatley at 43.1%, an 11.0-point lead.
 

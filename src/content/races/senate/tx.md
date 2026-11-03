@@ -2,14 +2,14 @@
 office: senate
 state: TX
 title: Talarico v. Paxton for John Cornyn's old seat
-summary: Republican Attorney General Ken Paxton, who beat Sen. John Cornyn in the primary, faces Democratic state Rep. James Talarico in a Toss Up; Talarico leads most late polls by a few points in a state Trump won by about 14, in what may be the most expensive Senate race ever.
+summary: Republican Attorney General Ken Paxton, who beat Sen. John Cornyn in the primary, faces Democratic state Rep. James Talarico in a race rated Toss Up to Lean Democratic; Talarico leads most late polls by a few points in a state Trump won by about 14, in what may be the most expensive Senate race ever.
 briefingDate: 2026-11-03
 ratingsAsOf: 2026-11-03
 incumbentParty: R
 openSeat: true
 ratings:
   Cook Political Report: Toss Up (Nov. 3)
-  Sabato's Crystal Ball: Toss Up (Nov. 3)
+  Sabato's Crystal Ball: Lean Democratic (Nov. 2)
   Inside Elections: Tilt Democratic (Nov. 3)
 candidates:
   - { name: James Talarico, party: D }
@@ -109,7 +109,7 @@ That gives Talarico a rhetorical argument about billionaire influence, though De
 | Forecaster | Rating |
 | --- | --- |
 | Cook Political Report | Toss Up (Nov. 3) |
-| Sabato's Crystal Ball | Toss Up (Nov. 3) |
+| Sabato's Crystal Ball | Lean Democratic (Nov. 2) |
 | Inside Elections | Tilt Democratic (Nov. 3) |
 
 A weighted average of 44 polls (PolitiKool), not a forecast, has Talarico at 48.7% and Paxton at 43.3%, a 5.4-point lead as of November 2. Other aggregators show a smaller Democratic edge, roughly two to five points.
@@ -123,7 +123,7 @@ A weighted average of 44 polls (PolitiKool), not a forecast, has Talarico at 48.
 | Emerson | Oct. 31–Nov. 1 | 49.8% | 48.4% | D+1.4 |
 | YouGov | Oct. 29 | 51% | 47% | D+4 |
 
-Cook and Sabato keep Toss Up ratings despite the polls, which is understandable: Texas has repeatedly disappointed Democrats who looked competitive in polling, and even a modest systematic error could flip the result. Talarico is the polling favorite, but it's a genuine Toss Up, and Paxton has the state's entrenched Republican infrastructure behind him.
+Cook keeps a Toss Up rating despite the polls, which is understandable: Texas has repeatedly disappointed Democrats who looked competitive in polling, and even a modest systematic error could flip the result. Talarico is the polling favorite, but it's a genuine Toss Up, and Paxton has the state's entrenched Republican infrastructure behind him.
 
 ## What to watch
 
