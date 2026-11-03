@@ -16,6 +16,23 @@ candidates:
   - { name: Dave Bronson, party: R }
   - { name: Bernadette Wilson, party: R }
   - { name: Treg Taylor, party: R }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Kreiss-Tomkins, party: D, pct: 90.9 }
+    - { name: Wilson, party: R, pct: 9.1 }
+  average:
+    margin: D+19.1
+    candidates:
+      - { name: Kreiss-Tomkins, party: D, pct: 48.7 }
+      - { name: Wilson, party: R, pct: 29.6 }
+      - { name: Bronson, party: R, pct: 10.7 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "522 LV", results: { Kreiss-Tomkins: 52, Wilson: 34, Bronson: 9 }, margin: D+18, influence: 2.04 }
+    - { dates: "Oct 23–30", pollster: "The New York Times/Siena College", sample: "568.5 LV", results: { Kreiss-Tomkins: 46, Wilson: 28, Bronson: 8 }, margin: D+18, influence: 1.74 }
+    - { dates: "Oct 23–25", pollster: "Alaska Survey Research", sample: "1,068 LV", results: { Kreiss-Tomkins: 51, Wilson: 31, Bronson: 12 }, margin: D+20, influence: 1.19 }
+    - { dates: "Oct 15–18", pollster: "Alaska Survey Research", sample: "1,568 LV", results: { Kreiss-Tomkins: 50, Wilson: 30, Bronson: 12 }, margin: D+20, influence: 0.66 }
 ---
 
 <!-- TODO: DDHQ rating not given in the source; add when known. -->
@@ -80,6 +97,10 @@ Autumn polling has consistently shown Kreiss-Tomkins with a large first-choice l
 
 | Pollster | Dates | Kreiss-Tomkins (D) | Wilson (R) | Bronson (R) |
 | --- | --- | --- | --- | --- |
+| AtlasIntel | Oct. 28–Nov. 1 | 52% | 34% | 9% |
+| Siena/NYT | Oct. 23–30 | 46% | 28% | 8% |
+| Alaska Survey Research | Oct. 23–25 | 51% | 31% | 12% |
+| Alaska Survey Research | Oct. 15–18 | 50% | 30% | 12% |
 | Data for Progress | Oct. 8–16 | 46% | 28% | 12% |
 | Siena/NYT | Sept. 24–Oct. 1 | 40% | 20% | 15% |
 | Cygnal | Sept. 24–27 | 44% | 24% | 8% |
