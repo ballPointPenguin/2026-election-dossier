@@ -91,7 +91,7 @@ Per third-quarter FEC filings as summarized by Ballotpedia. About a 2.6-to-1 edg
 
 | Poll / indicator | Peltola (D) | Sullivan (R) |
 | --- | --- | --- |
-| NYT/Siena, Nov. 1–2 | 48% | 46% |
+| NYT/Siena, Nov. 2 | 48% | 46% |
 | NYT/Siena, early October | 50% | 43% |
 | On Point polling average, Nov. 1 | 49.6% | 46.7% |
 
