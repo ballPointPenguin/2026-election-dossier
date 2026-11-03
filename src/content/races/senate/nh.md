@@ -16,6 +16,22 @@ candidates:
   - { name: Chris Pappas, party: D }
   - { name: John E. Sununu, party: R }
   - { name: Edmond Laplante, party: Constitution }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Pappas, party: D, pct: 95.0 }
+    - { name: Sununu, party: R, pct: 5.0 }
+  average:
+    margin: D+8.3
+    candidates:
+      - { name: Pappas, party: D, pct: 51.3 }
+      - { name: Sununu, party: R, pct: 43.1 }
+  polls:
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "1,057 LV", results: { Pappas: 52, Sununu: 44 }, margin: D+8, influence: 2.55 }
+    - { dates: "Oct 27–31", pollster: "University of New Hampshire", sample: "2,035 LV", results: { Pappas: 54, Sununu: 42 }, margin: D+12, influence: 1.72 }
+    - { dates: "Oct 19–20", pollster: "Saint Anselm College", sample: "1,672 LV", results: { Pappas: 50, Sununu: 43 }, margin: D+7, influence: 1.18 }
+    - { dates: "Oct 20–23", pollster: "Rasmussen Reports (R)", sample: "970 LV", results: { Pappas: 50, Sununu: 44 }, margin: D+6, influence: 0.76 }
 ---
 
 <!-- TODO: the source said New Hampshire hasn't elected a Republican to Congress since 2010, which looks off (Frank Guinta won NH-1 in 2014); that claim is left out. Verify before restoring. -->
@@ -99,12 +115,12 @@ A seven-poll average of recent likely-voter surveys, through November 3 and not 
 
 | Pollster | Dates | Pappas (D) | Sununu (R) | Margin |
 | --- | --- | --- | --- | --- |
-| University of New Hampshire | Nov. 1 | 54% | 42% | D+12 |
-| AtlasIntel | Nov. 1 | 52% | 44% | D+8 |
+| University of New Hampshire | Oct. 27–31 | 54% | 42% | D+12 |
+| AtlasIntel | Oct. 28–Nov. 1 | 52% | 44% | D+8 |
 | National Public Affairs (R) | Oct. 29 | 51% | 45% | D+6 |
 | UMass Lowell/YouGov | Oct. 28 | 48% | 41% | D+7 |
-| Rasmussen (R) | Oct. 26 | 50% | 44% | D+6 |
-| Saint Anselm College | Oct. 22 | 50% | 43% | D+7 |
+| Rasmussen (R) | Oct. 20–23 | 50% | 44% | D+6 |
+| Saint Anselm College | Oct. 19–20 | 50% | 43% | D+7 |
 
 The picture is remarkably consistent: even Republican-aligned pollsters have Pappas up six or seven. He's a substantial favorite, and Republicans would need a significant polling error or unusually favorable late turnout.
 
