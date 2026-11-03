@@ -17,6 +17,21 @@ candidates:
   - { name: Mary Peltola, party: D }
   - { name: Daniel J. Sullivan Jr., party: I }
   - { name: Gerald Heikes, party: R }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Peltola, party: D, pct: 57.3 }
+    - { name: Sullivan, party: R, pct: 42.7 }
+  average:
+    margin: D+2.4
+    candidates:
+      - { name: Peltola, party: D, pct: 48.3 }
+      - { name: Sullivan, party: R, pct: 45.9 }
+  polls:
+    - { dates: "Oct 31–Nov 1", pollster: "InsiderAdvantage", sample: "1,200 LV", results: { Peltola: 48, Sullivan: 48 }, margin: D+0, influence: 2.06 }
+    - { dates: "Oct 28–Nov 1", pollster: "AtlasIntel", sample: "522 LV", results: { Peltola: 50, Sullivan: 45 }, margin: D+6, influence: 1.84 }
+    - { dates: "Oct 26–29", pollster: "Alaska Survey Research", sample: "1,326 LV", results: { Peltola: 48, Sullivan: 46 }, margin: D+2, influence: 1.72 }
 ---
 
 Alaska has become one of the most consequential Senate battlegrounds of 2026. Two-term Republican Dan Sullivan faces former Democratic congresswoman Mary Peltola, who has a real ability to attract independents and Republican-leaning Alaskans. She enters Election Day with a narrow polling edge, but the race is still very competitive. An upset here could be essential to Democrats' hopes of retaking the Senate.
@@ -91,6 +106,9 @@ Per third-quarter FEC filings as summarized by Ballotpedia. About a 2.6-to-1 edg
 
 | Poll / indicator | Peltola (D) | Sullivan (R) |
 | --- | --- | --- |
+| InsiderAdvantage, Oct. 31–Nov. 1 | 48% | 48% |
+| AtlasIntel, Oct. 28–Nov. 1 | 50% | 45% |
+| Alaska Survey Research, Oct. 26–29 | 48% | 46% |
 | NYT/Siena, Nov. 2 | 48% | 46% |
 | NYT/Siena, early October | 50% | 43% |
 | On Point polling average, Nov. 1 | 49.6% | 46.7% |
