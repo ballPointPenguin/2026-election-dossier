@@ -12,6 +12,22 @@ ratings:
 candidates:
   - { name: Keisha Lance Bottoms, party: D }
   - { name: Rick Jackson, party: R }
+silverBulletin:
+  updated: 2026-11-03
+  model: Deluxe
+  winProb:
+    - { name: Bottoms, party: D, pct: 70.1 }
+    - { name: Jackson, party: R, pct: 29.9 }
+  average:
+    margin: D+0.7
+    candidates:
+      - { name: Bottoms, party: D, pct: 48.1 }
+      - { name: Jackson, party: R, pct: 47.4 }
+  polls:
+    - { dates: "Oct 31–Nov 2", pollster: "InsiderAdvantage", sample: "2,500 LV", results: { Bottoms: 49, Jackson: 49 }, margin: D+0, influence: 2.42 }
+    - { dates: "Oct 31–Nov 2", pollster: "Research Co.", sample: "450 LV", results: { Bottoms: 46, Jackson: 45 }, margin: D+1, influence: 1.70 }
+    - { dates: "Oct 23–27", pollster: "State Navigate", sample: "679 LV", results: { Bottoms: 50, Jackson: 47 }, margin: D+3, influence: 1.14 }
+    - { dates: "Oct 16–23", pollster: "Echelon Insights", sample: "508 LV", results: { Bottoms: 49, Jackson: 48 }, margin: D+1, influence: 0.96 }
 ---
 
 <!-- TODO: the source said only that "major election handicappers" rate the race a Toss Up without naming them; replace with Cook, Inside, Sabato and DDHQ when available. -->
@@ -84,11 +100,13 @@ Georgia requires statewide winners to get more than 50%. If neither major candid
 
 | Pollster | Dates | Bottoms (D) | Jackson (R) | Margin |
 | --- | --- | --- | --- | --- |
-| Research Co. | Nov. 2 | 51% | 49% | D+2 |
-| InsiderAdvantage | Nov. 2 | 49% | 49% | Tie |
+| Research Co. | Oct. 31–Nov. 2 | 46% | 45% | D+1 |
+| InsiderAdvantage | Oct. 31–Nov. 2 | 49% | 49% | Tie |
 | State Navigate | Oct. 23–27 | 50% | 47% | D+3 |
 | Echelon | Oct. 16–23 | 49% | 48% | D+1 |
 | University of Georgia | Oct. 7–15 | 45% | 46% | R+1 |
+
+<!-- TODO: the source had Research Co. at Bottoms 51, Jackson 49 (Nov. 2); FLIPR lists it as 46–45 (Oct. 31–Nov. 2). Used FLIPR's; confirm. -->
 
 Likely-voter polling, with differences in methodology, sample size and treatment of undecided voters. Models disagree: RealClearPolling has shown a slight Jackson edge, while some forecasts and prediction markets favor Bottoms, with one model at about 62% and markets nearer 70%. Neither candidate has a polling lead robust enough to justify much confidence. Jackson has spent more than $200 million of his own money and still hasn't established a clear lead, which says something about both the electorate's competitiveness and the strength of the 2026 Democratic environment.
 
